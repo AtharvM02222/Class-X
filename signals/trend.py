@@ -5,7 +5,7 @@ from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from blueprint import BLUEPRINT, HISTORY, LAST_SEEN
 
-CURRENT = 2025
+CURRENT = 2026
 RECENCY = {2024:1.0,2023:0.85,2022:0.70,2020:0.55,2019:0.40,2018:0.30,2017:0.20,2016:0.10}
 
 def gap_bonus(subject: str) -> dict[str, float]:

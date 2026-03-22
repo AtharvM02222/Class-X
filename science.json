@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-03-22T12:18:11.162827",
+  "tool": "CBSE Class 10 Board Predictor 2025",
+  "signals": [
+    "blueprint",
+    "past_papers",
+    "year_trend",
+    "youtube",
+    "gemini_pro"
+  ],
+  "chapter_scores": {
+    "science": {
+      "Chemical Reactions and Equations": {
+        "score": 0.5212,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Acids, Bases and Salts": {
+        "score": 0.4955,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Metals and Non-metals": {
+        "score": 0.4048,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Carbon and Its Compounds": {
+        "score": 0.4044,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Life Processes": {
+        "score": 0.6367,
+        "confidence": "High",
+        "rank": 1
+      },
+      "Control and Coordination": {
+        "score": 0.4267,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "How do Organisms Reproduce?": {
+        "score": 0.3682,
+        "confidence": "Low",
+        "rank": 11
+      },
+      "Heredity": {
+        "score": 0.2745,
+        "confidence": "Low",
+        "rank": 12
+      },
+      "Light - Reflection and Refraction": {
+        "score": 0.5125,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "The Human Eye and the Colourful World": {
+        "score": 0.3866,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Electricity": {
+        "score": 0.4698,
+        "confidence": "Medium",
+        "rank": 6
+      },
+      "Magnetic Effects of Electric Current": {
+        "score": 0.585,
+        "confidence": "Medium",
+        "rank": 2
+      },
+      "Our Environment": {
+        "score": 0.272,
+        "confidence": "Low",
+        "rank": 13
+      },
+      "Management of Natural Resources": {
+        "score": 0.2215,
+        "confidence": "Low",
+        "rank": 14
+      }
+    }
+  },
+  "predictions": {
+    "science": [
+      {
+        "rank": 1,
+        "question": "a) Draw a neat, labelled diagram of a human nephron and state its function.\nb) Explain the process of urine formation in the human kidney, highlighting the roles of glomerular filtration, tubular reabsorption, and tubular secretion.",
+        "chapter": "Life Processes",
+        "unit": "Biology",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "a) Diagram of human nephron (2 marks):\n   - Correct structure and labelling of Bowman's capsule, glomerulus, renal artery/vein, PCT, Loop of Henle, DCT, collecting duct. (1.5 marks for diagram, 0.5 mark for labels)\n   - Function: Basic filtration unit of the kidney, responsible for filtering blood and forming urine. (0.5 mark)\nb) Explanation of urine formation (2.5 marks):\n   - Glomerular filtration: Blood filtered in glomerulus, forming filtrate (water, salts, glucose, amino acids, urea) into Bowman's capsule. (1 mark)\n   - Tubular reabsorption: Selective reabsorption of useful substances (glucose, amino acids, most water, some salts) in PCT, Loop of Henle, DCT back into blood. (1 mark)\n   - Tubular secretion: Secretion of waste products (e.g., excess K+, H+, some drugs) from blood into filtrate in DCT and collecting duct. (0.5 mark)\n   - Final urine formed and passed to collecting duct.",
+        "source_signals": [
+          "Life Processes (Score:0.637, Conf:High, BP:1.00)",
+          "Excretion (nephron diagram)",
+          "SA-II or LA every year",
+          "Diagrams"
+        ],
+        "reason": "Life Processes is the highest-scoring chapter, and the nephron diagram with its function is a perennial LA question, often combined with the process of urine formation. This covers both diagrammatic and conceptual understanding.",
+        "composite_score": 0.637
+      },
+      {
+        "rank": 2,
+        "question": "An object 4 cm high is placed at a distance of 30 cm from a concave mirror of focal length 15 cm.\na) Calculate the position and nature of the image formed.\nb) Calculate the size of the image formed.\nc) Draw a neat ray diagram to show the formation of the image in this case.",
+        "chapter": "Light - Reflection and Refraction",
+        "unit": "Physics",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "Medium",
+        "scheme": "a) Position and nature of image (2 marks):\n   - Given: h_o = +4 cm, u = -30 cm, f = -15 cm (0.5 mark for sign convention)\n   - Mirror formula: 1/f = 1/v + 1/u\n   - 1/(-15) = 1/v + 1/(-30)\n   - 1/v = 1/(-15) - 1/(-30) = -1/15 + 1/30 = (-2+1)/30 = -1/30\n   - v = -30 cm (0.5 mark)\n   - Nature: Real, inverted (0.5 mark)\n   - Position: At the centre of curvature (C) (0.5 mark)\nb) Size of image (1 mark):\n   - Magnification (m) = -v/u = h_i/h_o\n   - m = -(-30)/(-30) = -1 (0.5 mark)\n   - h_i = m * h_o = -1 * 4 = -4 cm (0.5 mark)\n   - Size: 4 cm, inverted.\nc) Ray diagram (2 marks):\n   - Correctly drawn concave mirror with pole (P), principal axis, focus (F), and centre of curvature (C). (0.5 mark)\n   - Object placed at C (30 cm from mirror, since f=15cm, C=2f=30cm). (0.5 mark)\n   - At least two correct rays (e.g., parallel ray passing through F, ray passing through F becoming parallel, ray passing through C reflecting back). (0.5 mark)\n   - Image formed at C, real, inverted, and same size as object. (0.5 mark)",
+        "source_signals": [
+          "Light - Reflection and Refraction (Score:0.512, Conf:Medium, BP:0.70)",
+          "Mirror/lens formula numericals",
+          "Ray diagrams with object positions",
+          "Near-certain LA"
+        ],
+        "reason": "This chapter consistently features numerical problems combined with ray diagrams for 5 marks. The chosen scenario (object at C for a concave mirror) is a classic and tests both formula application and diagrammatic accuracy.",
+        "composite_score": 0.512
+      },
+      {
+        "rank": 3,
+        "question": "Read the following passage and answer the questions that follow:\n\nRaghav was experimenting with different electrical circuits in his lab. He connected a 12 V battery to a circuit containing a resistor. He noticed that the resistor became quite hot after some time. His teacher explained that this heating effect is utilized in many common appliances. Later, Raghav designed a simple circuit for a decorative light string using multiple small bulbs. He was advised to connect these bulbs in parallel rather than in series for optimal performance and safety.\n\na) State the law that explains the heating effect observed by Raghav.\nb) Calculate the heat generated in 10 seconds if a current of 2 A flows through a resistor of 10 Ω.\nc) Why is it advisable to connect decorative light bulbs in parallel rather than in series?\nd) List two common appliances that work on the principle of the heating effect of electric current.",
+        "chapter": "Electricity",
+        "unit": "Physics",
+        "marks": 4,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "a) Joule's Law of Heating (or Joule's Heating Effect). (1 mark)\nb) Given: t = 10 s, I = 2 A, R = 10 Ω.\n   - H = I²Rt = (2)² × 10 × 10 = 4 × 100 = 400 J. (1 mark)\nc) In parallel connection, each bulb gets the full supply voltage, so they glow with full brightness. If one bulb fuses, others continue to work. In series, if one bulb fuses, the circuit breaks, and all bulbs go out. Also, voltage divides in series, reducing brightness. (1 mark)\nd) Electric heater, electric iron, geyser, electric toaster, electric kettle. (Any two, 0.5 mark each)",
+        "source_signals": [
+          "Electricity (Score:0.470, Conf:Medium, BP:0.70)",
+          "Joule's heating numerical",
+          "Domestic wiring",
+          "Always numerical LA (adapted to case study)"
+        ],
+        "reason": "Electricity is a high-weight chapter, and case studies are common. This question combines Joule's heating effect (numerical) with practical applications like domestic wiring/series-parallel connections, which are frequently tested concepts.",
+        "composite_score": 0.47
+      },
+      {
+        "rank": 4,
+        "question": "Read the following passage and answer the questions that follow:\n\nDuring a school science fair, students were demonstrating the properties of acids, bases, and salts. One group showed how a universal indicator changes colour in solutions of varying pH. Another group demonstrated the reaction between an acid and a base, producing a salt and water. A third group explained the preparation and uses of a common salt, 'X', which is used as an antacid, in baking, and as a component of fire extinguishers. They also discussed another salt, 'Y', which is obtained by heating salt 'X' and is used for washing purposes and in glass industries.\n\na) What would be the approximate pH value of a solution that turns universal indicator dark green?\nb) Write a balanced chemical equation for the neutralisation reaction between dilute hydrochloric acid and sodium hydroxide solution.\nc) Identify salt 'X' and write its chemical formula. How is it prepared?\nd) Identify salt 'Y' and state one property that makes it useful for washing purposes.",
+        "chapter": "Acids, Bases and Salts",
+        "unit": "Chemistry",
+        "marks": 4,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "a) A pH value of approximately 7 (neutral). (1 mark)\nb) HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l) (1 mark)\nc) Salt 'X' is Sodium hydrogen carbonate (Baking soda). Its chemical formula is NaHCO₃. (0.5 mark)\n   - Preparation: NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃ (Solvay process). (0.5 mark)\nd) Salt 'Y' is Sodium carbonate decahydrate (Washing soda). (0.5 mark)\n   - Property for washing: It has detergent properties (cleansing action) and can remove permanent hardness of water. (0.5 mark)",
+        "source_signals": [
+          "Acids, Bases and Salts (Score:0.495, Conf:Medium, BP:0.80)",
+          "Overdue (gap:0.5)",
+          "pH",
+          "Neutralisation",
+          "Baking soda vs washing soda distinction",
+          "High-value SA-II or LA (adapted to case study)"
+        ],
+        "reason": "Acids, Bases and Salts is a high-weight and overdue chapter. This case study effectively covers key concepts like pH, neutralisation, and the distinction/preparation/uses of important salts like baking soda and washing soda, which are frequently asked.",
+        "composite_score": 0.495
+      },
+      {
+        "rank": 5,
+        "question": "a) What is a homologous series? List any two characteristics of a homologous series.\nb) Draw the electron dot structure of ethanoic acid (CH₃COOH).\nc) Differentiate between ethanol and ethanoic acid based on their chemical properties (give one test for each).",
+        "chapter": "Carbon and Its Compounds",
+        "unit": "Chemistry",
+        "marks": 3,
+        "type": "SA-II",
+        "confidence": "Medium",
+        "scheme": "a) Homologous series: A series of organic compounds in which all members have the same functional group and similar chemical properties, and any two successive members differ by a -CH₂ group. (1 mark)\n   - Characteristics (any two, 0.5 mark each):\n     i. All members have the same general formula.\n     ii. Successive members differ by -CH₂ group and 14 amu molecular mass.\n     iii. They show a gradual change in physical properties.\n     iv. They have similar chemical properties.\n     v. Can be prepared by general methods.\nb) Electron dot structure of ethanoic acid (CH₃COOH): (1 mark)\n   - Correct representation of C, H, O atoms with shared electron pairs and lone pairs. (Structure: C-C single bond, C=O double bond, C-O single bond, O-H single bond, H-C bonds, with all valence electrons shown correctly).\nc) Differentiation (1 mark):\n   - Ethanol (CH₃CH₂OH): Reacts with sodium metal to produce hydrogen gas (2Na + 2CH₃CH₂OH → 2CH₃CH₂ONa + H₂). Does not react with carbonates/bicarbonates.\n   - Ethanoic acid (CH₃COOH): Reacts with sodium carbonate/bicarbonate to produce CO₂ gas with brisk effervescence (2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂). Does not react with sodium metal as vigorously as ethanol (or less commonly tested for this). (0.5 mark for each compound with a correct test).",
+        "source_signals": [
+          "Carbon and Its Compounds (Score:0.404, Conf:Medium, BP:0.40)",
+          "Overdue (gap:0.75)",
+          "Due for LA in 2026 (adapted to SA-II)",
+          "Homologous series",
+          "IUPAC nomenclature",
+          "Ethanol vs ethanoic acid"
+        ],
+        "reason": "This chapter is significantly overdue and is predicted for an LA. This 3-mark question covers key concepts like homologous series, electron dot structure, and chemical differentiation of important organic compounds, making it a high-probability SA-II question.",
+        "composite_score": 0.404
+      },
+      {
+        "rank": 6,
+        "question": "Explain the mechanism of sex determination in human beings. Use a suitable diagram or flow chart to illustrate your answer.",
+        "chapter": "Heredity",
+        "unit": "Biology",
+        "marks": 3,
+        "type": "SA-II",
+        "confidence": "Low",
+        "scheme": "Explanation (2 marks):\n   - Humans have 23 pairs of chromosomes. 22 pairs are autosomes, and 1 pair is sex chromosomes.\n   - Females have two X chromosomes (XX), and males have one X and one Y chromosome (XY).\n   - During gamete formation, females produce only one type of ovum (X). (0.5 mark)\n   - Males produce two types of sperm: 50% carry X chromosome and 50% carry Y chromosome. (0.5 mark)\n   - If an X-sperm fertilizes the ovum, the zygote will be XX (female). (0.5 mark)\n   - If a Y-sperm fertilizes the ovum, the zygote will be XY (male). (0.5 mark)\n   - Therefore, the sex of the child is determined by the type of sperm that fertilizes the ovum.\nDiagram/Flow chart (1 mark):\n   - Correct representation of parental genotypes (XX, XY), gametes (X, X; X, Y), and offspring genotypes (XX, XY) with associated probabilities.",
+        "source_signals": [
+          "Heredity (Score:0.275, Conf:Low, BP:0.30)",
+          "Gap:0.45",
+          "High gap bonus",
+          "Sex determination"
+        ],
+        "reason": "Heredity has a high gap bonus and sex determination is a fundamental and frequently asked concept from this chapter. It tests conceptual understanding and the ability to represent biological processes.",
+        "composite_score": 0.275
+      },
+      {
+        "rank": 7,
+        "question": "a) Balance the following chemical equation:\n   Fe₂O₃(s) + CO(g) → Fe(s) + CO₂(g)\nb) Identify the type of reaction represented by the balanced equation.",
+        "chapter": "Chemical Reactions and Equations",
+        "unit": "Chemistry",
+        "marks": 2,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "a) Balanced chemical equation (1.5 marks):\n   - Fe₂O₃(s) + 3CO(g) → 2Fe(s) + 3CO₂(g)\n   (0.5 mark for each correctly balanced coefficient for CO, Fe, CO₂)\nb) Type of reaction (0.5 mark):\n   - Redox reaction (or Reduction-Oxidation reaction). (Also acceptable: Displacement reaction if viewed as C displacing Fe, but Redox is more precise).",
+        "source_signals": [
+          "Chemical Reactions and Equations (Score:0.521, Conf:Medium, BP:0.70)",
+          "Overdue (gap:0.5)",
+          "Balancing equations (always MCQ + SA)",
+          "Types of reactions"
+        ],
+        "reason": "Balancing chemical equations and identifying reaction types are core skills from this chapter, always tested in short answer or MCQ format. This question combines both, making it a high-probability SA-I.",
+        "composite_score": 0.521
+      }
+    ]
+  }
+}

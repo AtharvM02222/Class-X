@@ -52,8 +52,8 @@ YT_KEYWORDS = [
 # ── CBSE URLs ─────────────────────────────────────────────────────────────────
 CBSE_BASE = "https://cbseacademic.nic.in"
 CBSE_URLS = {
-    "sqp_2025":    f"{CBSE_BASE}/SQP_CLASSX.html",
-    "sqp_2024":    f"{CBSE_BASE}/SQP_CLASSX_2024.html",
+    "sqp_2025":    f"{CBSE_BASE}/SQP_CLASSX_2024-25.html",
+    "sqp_2024":    f"{CBSE_BASE}/SQP_CLASSX_2023-24.html",
     "pyq_2024":    f"{CBSE_BASE}/Question_Paper_Classwise_2024.html",
     "pyq_2023":    f"{CBSE_BASE}/Question_Paper_Classwise_2023.html",
     "pyq_2022":    f"{CBSE_BASE}/Question_Paper_Classwise_2022.html",
@@ -151,7 +151,7 @@ CONFIDENCE_BANDS = {"High": 0.62, "Medium": 0.38, "Low": 0.0}
 QUESTION_DISTRIBUTION = {   # questions per mark type per subject
     "science":        {1: 20, 2: 6, 3: 7, 5: 3},
     "math":           {1: 20, 2: 5, 3: 6, 4: 4},
-    "social_science": {1: 20, 3: 5, 5: 4},
+    "social_science": {1: 20, 3: 5, 5: 5},
 }
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────

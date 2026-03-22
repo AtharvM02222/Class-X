@@ -1,0 +1,257 @@
+{
+  "generated_at": "2026-03-22T12:18:48.090306",
+  "tool": "CBSE Class 10 Board Predictor 2025",
+  "signals": [
+    "blueprint",
+    "past_papers",
+    "year_trend",
+    "youtube",
+    "gemini_pro"
+  ],
+  "chapter_scores": {
+    "math": {
+      "Real Numbers": {
+        "score": 0.5797,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Polynomials": {
+        "score": 0.4292,
+        "confidence": "Medium",
+        "rank": 13
+      },
+      "Pair of Linear Equations in Two Variables": {
+        "score": 0.5231,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "Quadratic Equations": {
+        "score": 0.7626,
+        "confidence": "High",
+        "rank": 1
+      },
+      "Arithmetic Progressions": {
+        "score": 0.3512,
+        "confidence": "Low",
+        "rank": 14
+      },
+      "Coordinate Geometry": {
+        "score": 0.5141,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Triangles": {
+        "score": 0.4747,
+        "confidence": "Medium",
+        "rank": 11
+      },
+      "Circles": {
+        "score": 0.4511,
+        "confidence": "Medium",
+        "rank": 12
+      },
+      "Introduction to Trigonometry": {
+        "score": 0.581,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "Some Applications of Trigonometry": {
+        "score": 0.649,
+        "confidence": "High",
+        "rank": 2
+      },
+      "Areas Related to Circles": {
+        "score": 0.4886,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Surface Areas and Volumes": {
+        "score": 0.5092,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Statistics": {
+        "score": 0.5934,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Probability": {
+        "score": 0.5284,
+        "confidence": "Medium",
+        "rank": 6
+      }
+    }
+  },
+  "predictions": {
+    "math": [
+      {
+        "rank": 1,
+        "question": "DIRECTION: In the following question, a statement of Assertion (A) is followed by a statement of Reason (R).\nChoose the correct option.\n\nAssertion (A): The quadratic equation 2x² - 4x + 3 = 0 has no real roots.\nReason (R): The discriminant (D) of a quadratic equation ax² + bx + c = 0 is given by D = b² - 4ac. If D < 0, the equation has no real roots.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+        "chapter": "Quadratic Equations",
+        "unit": "Nature of Roots",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "High",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "GapBonus"
+        ],
+        "reason": "Discriminant nature-of-roots is a guaranteed MCQ. Assertion-Reason format tests conceptual understanding.",
+        "composite_score": 0.763
+      },
+      {
+        "rank": 12,
+        "question": "DIRECTION: In the following question, a statement of Assertion (A) is followed by a statement of Reason (R).\nChoose the correct option.\n\nAssertion (A): If a tangent is drawn from an external point P to a circle with centre O, and the point of contact is T, then OT is perpendicular to PT.\nReason (R): The tangent at any point of a circle is perpendicular to the radius through the point of contact.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+        "chapter": "Circles",
+        "unit": "Tangents to a Circle",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence"
+        ],
+        "reason": "The property of tangent being perpendicular to radius is a fundamental concept, frequently tested in 1M questions, often in A/R format.",
+        "composite_score": 0.451
+      },
+      {
+        "rank": 5,
+        "question": "The HCF of 96 and 404 is 4. What is their LCM?",
+        "chapter": "Real Numbers",
+        "unit": "HCF and LCM",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "GapBonus"
+        ],
+        "reason": "HCF/LCM based on the product of numbers is a common 1M question, testing a core concept.",
+        "composite_score": 0.58
+      },
+      {
+        "rank": 5,
+        "question": "Prove that 3 + 2√5 is an irrational number, given that √5 is an irrational number.",
+        "chapter": "Real Numbers",
+        "unit": "Irrational Numbers",
+        "marks": 2,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "GapBonus"
+        ],
+        "reason": "Irrationality proofs appear in SA, and this specific type (a + b√c) is a recurring pattern.",
+        "composite_score": 0.58
+      },
+      {
+        "rank": 11,
+        "question": "In the given figure, DE || BC. If AD = x, DB = x - 2, AE = x + 2 and EC = x - 1, find the value of x.\n\n(Diagram: A triangle ABC with a line segment DE parallel to BC, where D is on AB and E is on AC.)",
+        "chapter": "Triangles",
+        "unit": "Similarity of Triangles / Basic Proportionality Theorem",
+        "marks": 2,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence"
+        ],
+        "reason": "While BPT proof is an LA, its application in finding unknown lengths is a common 2M question.",
+        "composite_score": 0.475
+      },
+      {
+        "rank": 2,
+        "question": "A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30° to 60° as he walks towards the building. Find the distance he walked towards the building.",
+        "chapter": "Some Applications of Trigonometry",
+        "unit": "Heights and Distances",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "High",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "YT:Shobhit",
+          "YT:NextToppers"
+        ],
+        "reason": "Heights & Distances word problems (like two buildings or a person walking towards a tower) are guaranteed SA-II or LA.",
+        "composite_score": 0.649
+      },
+      {
+        "rank": 4,
+        "question": "Prove the identity: (sinθ - 2sin³θ) / (2cos³θ - cosθ) = tanθ",
+        "chapter": "Introduction to Trigonometry",
+        "unit": "Trigonometric Identities",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence"
+        ],
+        "reason": "Identity-based simplifications and proofs are a staple in the Trigonometry unit, frequently appearing as 3M questions.",
+        "composite_score": 0.581
+      },
+      {
+        "rank": 10,
+        "question": "In the given figure, ABCD is a square of side 14 cm. With centres A, B, C and D, four circles are drawn such that each circle touches externally two of the remaining three circles. Find the area of the shaded region.\n\n(Diagram: A square ABCD with four quarter circles drawn at each vertex, touching at the midpoints of the sides, leaving a central shaded region.)",
+        "chapter": "Areas Related to Circles",
+        "unit": "Area of Sector and Segment",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": null,
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "GapBonus"
+        ],
+        "reason": "Sector/segment area combination figures are overdue and a classic problem type for 3M.",
+        "composite_score": 0.489
+      },
+      {
+        "rank": 1,
+        "question": "A motorboat whose speed in still water is 18 km/h, takes 1 hour more to go 24 km upstream than to return downstream to the same spot.\n\nBased on the above information, answer the following questions:\n(i) If the speed of the stream is x km/h, write an expression for the time taken to go 24 km upstream.\n(ii) Formulate a quadratic equation representing the given situation.\n(iii) Find the speed of the stream.",
+        "chapter": "Quadratic Equations",
+        "unit": "Word Problems",
+        "marks": 4,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "Marking Scheme:\n(i) Speed upstream = (18 - x) km/h. Time taken upstream = 24 / (18 - x) hours. [1 Mark]\n(ii) Speed downstream = (18 + x) km/h. Time taken downstream = 24 / (18 + x) hours.\nAccording to the problem: 24 / (18 - x) - 24 / (18 + x) = 1\n24[(18 + x) - (18 - x)] / [(18 - x)(18 + x)] = 1\n24(2x) / (324 - x²) = 1\n48x = 324 - x²\nx² + 48x - 324 = 0 [1 Mark]\n(iii) Solving the quadratic equation x² + 48x - 324 = 0\nUsing quadratic formula: x = [-b ± √(b² - 4ac)] / 2a\nx = [-48 ± √(48² - 4*1*(-324))] / 2*1\nx = [-48 ± √(2304 + 1296)] / 2\nx = [-48 ± √3600] / 2\nx = [-48 ± 60] / 2\nx = (-48 + 60) / 2 = 12 / 2 = 6  OR  x = (-48 - 60) / 2 = -108 / 2 = -54\nSince speed cannot be negative, x = 6.\nSpeed of the stream = 6 km/h. [2 Marks]",
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence",
+          "GapBonus",
+          "YT:NextToppers"
+        ],
+        "reason": "Word problems (speed/time) are a classic LA type for Quadratic Equations and are highly suitable for a case study format.",
+        "composite_score": 0.763
+      },
+      {
+        "rank": 3,
+        "question": "A survey was conducted on 200 students of Class X of a school regarding the marks obtained by them in a Mathematics test. The following table shows the data:\n\n| Marks Obtained | Number of Students |\n|----------------|--------------------|\n| 0-20           | 10                 |\n| 20-40          | 30                 |\n| 40-60          | 70                 |\n| 60-80          | 50                 |\n| 80-100         | 40                 |\n\nBased on the above data, answer the following questions:\n(i) Estimate the mean marks obtained by the students using the step-deviation method.\n(ii) Find the median marks.\n(iii) Find the modal marks.",
+        "chapter": "Statistics",
+        "unit": "Mean, Median, Mode of Grouped Data",
+        "marks": 4,
+        "type": "LA",
+        "confidence": "Medium",
+        "scheme": "Marking Scheme:\n(i) Calculation of Mean (Step-deviation method):\n   - Mid-points (xᵢ), dᵢ = xᵢ - A, uᵢ = dᵢ/h, fᵢuᵢ columns. (A=50, h=20)\n   - Σfᵢ = 200, Σfᵢuᵢ = 10( -2) + 30(-1) + 70(0) + 50(1) + 40(2) = -20 - 30 + 0 + 50 + 80 = 80.\n   - Mean (x̄) = A + (Σfᵢuᵢ / Σfᵢ) * h = 50 + (80 / 200) * 20 = 50 + 8 = 58. [1.5 Marks]\n(ii) Calculation of Median:\n   - Cumulative frequency (cf) column: 10, 40, 110, 160, 200.\n   - n/2 = 200/2 = 100. Median class is 40-60 (cf=110).\n   - l = 40, h = 20, f = 70, cf = 40 (cf of preceding class).\n   - Median = l + [(n/2 - cf) / f] * h = 40 + [(100 - 40) / 70] * 20 = 40 + (60/70) * 20 = 40 + 120/7 = 40 + 17.14 = 57.14 (approx). [1.5 Marks]\n(iii) Calculation of Mode:\n   - Modal class is 40-60 (highest frequency = 70).\n   - l = 40, h = 20, f₁ = 70, f₀ = 30, f₂ = 50.\n   - Mode = l + [(f₁ - f₀) / (2f₁ - f₀ - f₂)] * h = 40 + [(70 - 30) / (2*70 - 30 - 50)] * 20\n   - = 40 + [40 / (140 - 80)] * 20 = 40 + (40 / 60) * 20 = 40 + (2/3) * 20 = 40 + 40/3 = 40 + 13.33 = 53.33 (approx). [1 Mark]",
+        "source_signals": [
+          "Composite Score",
+          "Specific Intelligence"
+        ],
+        "reason": "Mean by step-deviation, median, and mode are all critical topics in Statistics. A case study combining all three is highly probable for a 4M question.",
+        "composite_score": 0.593
+      }
+    ]
+  }
+}

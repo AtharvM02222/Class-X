@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-03-22T12:19:31.003453",
+  "tool": "CBSE Class 10 Board Predictor 2025",
+  "signals": [
+    "blueprint",
+    "past_papers",
+    "year_trend",
+    "youtube",
+    "gemini_pro"
+  ],
+  "chapter_scores": {
+    "social_science": {
+      "The Rise of Nationalism in Europe": {
+        "score": 0.4384,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Nationalism in India": {
+        "score": 0.7075,
+        "confidence": "High",
+        "rank": 1
+      },
+      "The Making of a Global World": {
+        "score": 0.4143,
+        "confidence": "Medium",
+        "rank": 12
+      },
+      "The Age of Industrialisation": {
+        "score": 0.3196,
+        "confidence": "Low",
+        "rank": 16
+      },
+      "Resources and Development": {
+        "score": 0.5418,
+        "confidence": "Medium",
+        "rank": 2
+      },
+      "Forest and Wildlife Resources": {
+        "score": 0.3048,
+        "confidence": "Low",
+        "rank": 17
+      },
+      "Water Resources": {
+        "score": 0.4837,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "Agriculture": {
+        "score": 0.4164,
+        "confidence": "Medium",
+        "rank": 11
+      },
+      "Minerals and Energy Resources": {
+        "score": 0.303,
+        "confidence": "Low",
+        "rank": 18
+      },
+      "Manufacturing Industries": {
+        "score": 0.2625,
+        "confidence": "Low",
+        "rank": 20
+      },
+      "Lifelines of National Economy": {
+        "score": 0.2177,
+        "confidence": "Low",
+        "rank": 23
+      },
+      "Power Sharing": {
+        "score": 0.4386,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "Federalism": {
+        "score": 0.4096,
+        "confidence": "Medium",
+        "rank": 13
+      },
+      "Democracy and Diversity": {
+        "score": 0.3479,
+        "confidence": "Low",
+        "rank": 15
+      },
+      "Gender Religion and Caste": {
+        "score": 0.3745,
+        "confidence": "Low",
+        "rank": 14
+      },
+      "Popular Struggles and Movements": {
+        "score": 0.2449,
+        "confidence": "Low",
+        "rank": 21
+      },
+      "Political Parties": {
+        "score": 0.2397,
+        "confidence": "Low",
+        "rank": 22
+      },
+      "Outcomes of Democracy": {
+        "score": 0.4912,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Development": {
+        "score": 0.4426,
+        "confidence": "Medium",
+        "rank": 6
+      },
+      "Sectors of the Indian Economy": {
+        "score": 0.4436,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Money and Credit": {
+        "score": 0.4193,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Globalisation and the Indian Economy": {
+        "score": 0.4365,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Consumer Rights": {
+        "score": 0.2853,
+        "confidence": "Low",
+        "rank": 19
+      }
+    }
+  },
+  "predictions": {
+    "social_science": [
+      {
+        "rank": 1,
+        "question": "The Civil Disobedience Movement marked a significant phase in India's struggle for independence, distinct from the Non-Cooperation Movement in several ways.\n\nAnalyse the main features of the Civil Disobedience Movement and explain how it differed from the Non-Cooperation Movement.",
+        "chapter": "Nationalism in India",
+        "unit": "History",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "Main Features of Civil Disobedience Movement (3 points, 1 mark each):\n1.  **Launch and Objectives:** Launched with the Dandi March (Salt Satyagraha) in 1930, aiming for 'Purna Swaraj' (complete independence). It involved breaking colonial laws, not just non-cooperation.\n2.  **Participation:** Widespread participation from various sections including women, peasants, tribal communities, and industrial workers, often with their own specific demands.\n3.  **Methods:** Boycott of foreign goods, picketing of liquor shops, refusal to pay taxes (chaukidari tax, revenue), breaking forest laws, and non-violent civil disobedience against unjust laws.\n\nDifferences from Non-Cooperation Movement (Any 2 points, 1 mark each):\n1.  **Objective:** NCM aimed for Swaraj (self-rule within the British Empire) or redressal of Khilafat and Punjab wrongs, while CDM explicitly demanded 'Purna Swaraj' (complete independence).\n2.  **Methodology:** NCM primarily focused on non-cooperation with British institutions (boycott of schools, courts, councils, foreign goods). CDM went a step further by actively breaking colonial laws (e.g., salt law, forest laws).\n3.  **Participation Intensity:** CDM saw more active and direct defiance of laws, leading to larger-scale arrests and greater involvement of women and industrial workers in public protests.",
+        "source_signals": [
+          "High-Probability Intelligence: Nationalism in India",
+          "Composite Signal Score: Nationalism in India (Rank:#1)",
+          "Blueprint"
+        ],
+        "reason": "Nationalism in India is a guaranteed LA/SA-II topic. Comparing and contrasting major movements like CDM and NCM is a classic CBSE question style, testing analytical understanding.",
+        "composite_score": 0.708
+      },
+      {
+        "rank": 2,
+        "question": "The Indian economy is characterised by the presence of both organised and unorganised sectors. While the organised sector offers certain advantages, the unorganised sector often leaves workers vulnerable.\n\nIn this context, explain five challenges faced by workers in the unorganised sector in India and suggest two measures the government can take to protect them.",
+        "chapter": "Sectors of the Indian Economy",
+        "unit": "Economics",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "Challenges faced by workers in the unorganised sector (Any five points, 1 mark each):\n1.  **Low Wages:** Workers often receive very low wages, sometimes below the minimum wage.\n2.  **Lack of Job Security:** Employment is often temporary, and workers can be dismissed without notice or compensation.\n3.  **No Social Security Benefits:** Absence of provident fund, gratuity, paid leave, medical benefits, or pension schemes.\n4.  **Poor Working Conditions:** Long working hours, unsafe environment, lack of basic amenities like drinking water or sanitation.\n5.  **Exploitation:** Vulnerable to exploitation by employers due to lack of bargaining power and legal protection.\n6.  **No Trade Union Rights:** Difficulty in forming unions to collectively bargain for their rights.\n7.  **Seasonal Employment:** Many jobs are seasonal, leading to periods of unemployment.\n\nMeasures the government can take (Any two points, 1 mark each):\n1.  **Legislation and Enforcement:** Enacting and strictly enforcing laws related to minimum wages, working hours, and social security for unorganised sector workers.\n2.  **Social Security Schemes:** Expanding and effectively implementing government schemes like Jan Dhan Yojana, PM-SYM (Pradhan Mantri Shram Yogi Maan-dhan), Ayushman Bharat, and E-Shram portal to provide health insurance, pension, and other benefits.\n3.  **Credit Facilities:** Providing easy access to credit at low interest rates to help small entrepreneurs and self-employed individuals.\n4.  **Skill Development:** Offering skill training and vocational education to improve employability and income-generating capacity.\n5.  **Promoting Organised Sector Growth:** Encouraging the growth of the organised sector to absorb more workers.",
+        "source_signals": [
+          "High-Probability Intelligence: Sectors of Indian Economy (LA candidate)",
+          "Composite Signal Score: Sectors of the Indian Economy (Rank:#5)",
+          "Blueprint"
+        ],
+        "reason": "This chapter is a strong LA candidate. The distinction and challenges of the unorganised sector are frequently tested, requiring both descriptive and prescriptive answers.",
+        "composite_score": 0.444
+      },
+      {
+        "rank": 3,
+        "question": "Read the following passage and answer the questions that follow:\n\nIndia is a vast country with diverse cultures, languages, and socio-economic conditions. To accommodate this diversity and ensure effective governance, a three-tier system of government was established. The 73rd and 74th Constitutional Amendments in 1992 were landmark steps in this direction, aiming to strengthen local self-governance. These amendments mandated regular elections to local bodies, reserved seats for Scheduled Castes, Scheduled Tribes, and Other Backward Classes, and also for women. They also created State Election Commissions to conduct these elections and State Finance Commissions to review the financial position of local bodies.\n\nThis decentralisation has brought governance closer to the people, allowing for more direct participation in decision-making and better addressing of local needs. However, challenges persist, such as inadequate funding, lack of effective devolution of powers in some states, and limited capacity of local elected representatives.\n\ni. Why was a three-tier system of government considered essential for a country like India?\nii. Identify two significant provisions of the 73rd and 74th Constitutional Amendments that aimed to empower local self-governments.\niii. Evaluate the impact of decentralisation on democratic participation in India, citing one positive and one negative aspect mentioned in the passage.",
+        "chapter": "Federalism",
+        "unit": "Civics",
+        "marks": 5,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "i. **Why three-tier system essential (1 mark):** To accommodate India's vast diversity (cultures, languages, socio-economic conditions) and ensure effective governance by bringing power closer to the people.\nii. **Two significant provisions (1 mark each for any two, total 2 marks):**\n    a. Mandated regular elections to local bodies.\n    b. Reserved seats for SCs, STs, OBCs.\n    c. Reserved at least one-third of seats for women.\n    d. Creation of State Election Commissions.\n    e. Creation of State Finance Commissions.\niii. **Impact of decentralisation (1 positive, 1 negative, 1 mark each, total 2 marks):**\n    a. **Positive:** Brought governance closer to the people, allowing for more direct participation in decision-making and better addressing of local needs.\n    b. **Negative:** Challenges persist such as inadequate funding, lack of effective devolution of powers in some states, and limited capacity of local elected representatives.",
+        "source_signals": [
+          "High-Probability Intelligence: Federalism (Decentralisation, Panchayati Raj)",
+          "Composite Signal Score: Federalism (Rank:#13)",
+          "YT:Digraj Singh Rajput (Federalism)"
+        ],
+        "reason": "Decentralisation and Panchayati Raj are key components of Federalism and frequently appear in exams. A case study allows for testing comprehension and application of these concepts.",
+        "composite_score": 0.41
+      },
+      {
+        "rank": 4,
+        "question": "Explain the role of allegories in the development of nationalism in Europe during the 18th and 19th centuries. Provide two examples to support your answer.",
+        "chapter": "The Rise of Nationalism in Europe",
+        "unit": "History",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": "Role of allegories (1 mark):\nAllegories helped in visualising and personifying abstract ideas like liberty, justice, republic, and freedom. They provided a tangible form to the nation, making it easier for people to identify with and feel a sense of collective belonging.\n\nExamples (1 mark each for any two examples with explanation):\n1.  **Marianne (France):** A female allegory representing the French nation. Her characteristics (red cap, tricolour, cockade) symbolised Liberty and the Republic. Statues of Marianne were erected in public places to remind people of the national symbol of unity.\n2.  **Germania (Germany):** A female allegory representing the German nation. She wore a crown of oak leaves, as the German oak stands for heroism. She held a sword, symbolising readiness to defend the nation.\n3.  **Liberty:** Often depicted as a female figure with a red cap or broken chains.\n4.  **Justice:** Blindfolded woman carrying a pair of weighing scales.",
+        "source_signals": [
+          "High-Probability Intelligence: The Rise of Nationalism in Europe (Allegorical figures)",
+          "Composite Signal Score: The Rise of Nationalism in Europe (Rank:#8)",
+          "YT:Digraj Singh Rajput (Nationalism in Europe)"
+        ],
+        "reason": "Allegorical figures are a recurring theme in this chapter, testing students' understanding of how abstract concepts were communicated to foster national identity.",
+        "composite_score": 0.438
+      },
+      {
+        "rank": 5,
+        "question": "Sustainable development is crucial for the future of humanity. Explain three ways in which sustainable development can be achieved, with suitable examples.",
+        "chapter": "Development",
+        "unit": "Economics",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "High",
+        "scheme": "Three ways to achieve sustainable development (1 mark each for point and example):\n1.  **Judicious Use of Resources:** Using non-renewable resources carefully and promoting the use of renewable resources. \n    *Example:* Shifting from fossil fuels to solar or wind energy for electricity generation.\n2.  **Conservation of Resources:** Protecting natural resources from depletion and degradation. \n    *Example:* Afforestation programmes, rainwater harvesting, and preventing industrial pollution of rivers.\n3.  **Promoting Public Transport and Green Technologies:** Reducing reliance on private vehicles and investing in eco-friendly technologies.\n    *Example:* Developing electric vehicles, improving public bus and metro networks, and using energy-efficient appliances.\n4.  **Population Control and Education:** Managing population growth and educating people about environmental responsibility.\n    *Example:* Family planning initiatives and incorporating environmental studies into school curricula.\n5.  **Recycling and Reuse:** Minimising waste generation by recycling materials and reusing products.\n    *Example:* Composting organic waste, recycling plastic and paper, and using reusable bags.",
+        "source_signals": [
+          "High-Probability Intelligence: Development (Sustainable development)",
+          "Composite Signal Score: Development (Rank:#6)",
+          "Blueprint"
+        ],
+        "reason": "Sustainable development is a core concept in the 'Development' chapter and is consistently asked in various forms, requiring practical examples.",
+        "composite_score": 0.443
+      },
+      {
+        "rank": 6,
+        "question": "Critically examine any three challenges that democracies face in ensuring accountability and responsiveness to the needs of their citizens.",
+        "chapter": "Outcomes of Democracy",
+        "unit": "Civics",
+        "marks": 3,
+        "type": "SA",
+        "confidence": "Medium",
+        "scheme": "Challenges faced by democracies (Any three points, 1 mark each):\n1.  **Lack of Transparency:** Often, decisions are not taken in an open manner, and citizens do not have the right or the means to examine the process of decision making, leading to a lack of accountability.\n2.  **Corruption:** Widespread corruption among political leaders and bureaucrats can undermine the effectiveness of democratic institutions and divert resources from public welfare.\n3.  **Slow Decision-Making:** Democratic processes, involving debates, negotiations, and consensus-building, can sometimes be slow and inefficient, leading to delays in addressing urgent public needs.\n4.  **Economic Inequality:** Democracies often struggle to reduce economic disparities, and the rich continue to benefit disproportionately, making the system less responsive to the poor.\n5.  **Influence of Money and Muscle Power:** Elections can be influenced by wealthy individuals and criminal elements, leading to the selection of unrepresentative leaders and undermining the democratic process.\n6.  **Failure to Accommodate Diversity:** While democracies are designed to accommodate diversity, they sometimes fail to integrate all social groups, leading to conflicts and alienation.",
+        "source_signals": [
+          "Composite Signal Score: Outcomes of Democracy (Rank:#3)",
+          "YT:Digraj Singh Rajput (Outcomes of Democracy)"
+        ],
+        "reason": "Outcomes of Democracy is a high-ranking chapter in composite scores and YouTube predictions. Questions on challenges or achievements of democracy are common.",
+        "composite_score": 0.491
+      },
+      {
+        "rank": 7,
+        "question": "Read the following passage and answer the questions that follow:\n\nLand degradation is a serious environmental concern in India, impacting agricultural productivity and ecological balance. Various human activities, alongside natural factors, contribute to this problem. Over-irrigation in states like Punjab, Haryana, and western Uttar Pradesh has led to waterlogging and increased salinity and alkalinity in the soil. Mining sites, after excavation, are often abandoned without proper restoration, leaving deep scars and overburdening the land. Industrial effluents and waste, when discharged without treatment, contaminate land and water resources. Deforestation for various purposes also exposes the soil to erosion by wind and water, further accelerating degradation.\n\ni. Identify two human activities mentioned in the passage that contribute to land degradation.\nii. Explain how over-irrigation leads to land degradation in specific regions of India.\niii. Suggest one measure to mitigate land degradation caused by mining activities.",
+        "chapter": "Resources and Development",
+        "unit": "Geography",
+        "marks": 3,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "i. **Two human activities (1 mark for any two):** Over-irrigation, mining, industrial effluents and waste discharge, deforestation.\nii. **How over-irrigation leads to land degradation (1 mark):** Over-irrigation leads to waterlogging, which in turn increases the salinity and alkalinity of the soil, making it infertile for cultivation.\niii. **Measure to mitigate land degradation from mining (1 mark):** Proper restoration of mining sites after excavation, including land reclamation and afforestation.",
+        "source_signals": [
+          "Composite Signal Score: Resources and Development (Rank:#2)",
+          "Blueprint"
+        ],
+        "reason": "This chapter has a high composite score. Land degradation is a critical topic within 'Resources and Development' and is suitable for a case study to test application and understanding of causes and solutions.",
+        "composite_score": 0.542
+      },
+      {
+        "rank": 8,
+        "question": "Assertion (A): Power sharing is desirable because it helps to reduce the possibility of conflict between social groups.\nReason (R): Power sharing ensures the stability of political order.\n\nOptions:\na) Both A and R are true and R is the correct explanation of A.\nb) Both A and R are true but R is not the correct explanation of A.\nc) A is true but R is false.\nd) A is false but R is true.",
+        "chapter": "Power Sharing",
+        "unit": "Civics",
+        "marks": 1,
+        "type": "Assertion-Reason",
+        "confidence": "High",
+        "scheme": "a) Both A and R are true and R is the correct explanation of A.",
+        "source_signals": [
+          "High-Probability Intelligence: Power Sharing",
+          "Composite Signal Score: Power Sharing (Rank:#7)",
+          "Blueprint"
+        ],
+        "reason": "Power Sharing is a foundational chapter, and Assertion-Reason questions are a standard MCQ type in CBSE, testing conceptual understanding. Both statements are true, and the reason directly explains the assertion's desirability.",
+        "composite_score": 0.439
+      },
+      {
+        "rank": 9,
+        "question": "Which of the following conservation strategies involves the protection of entire ecosystems, including all living organisms and their habitats?\na) In-situ conservation\nb) Ex-situ conservation\nc) Zoological gardens\nd) Botanical gardens",
+        "chapter": "Forest and Wildlife Resources",
+        "unit": "Geography",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "Low",
+        "scheme": "a) In-situ conservation",
+        "source_signals": [
+          "Overdue Chapters: Forest and Wildlife Resources (gap:1.0)"
+        ],
+        "reason": "This chapter is overdue for significant questions. A factual MCQ about conservation methods is a suitable way to include it, testing basic definitions.",
+        "composite_score": 0.305
+      },
+      {
+        "rank": 10,
+        "question": "On the given political outline map of India, identify the following:\n\nA. The place where Mahatma Gandhi organised a 'Satyagraha' movement amongst cotton mill workers.\nB. The state where the Bhakra Nangal Dam is located.\nC. A major seaport on the eastern coast of India (label with its name).\nD. An Iron and Steel Plant located in Chhattisgarh (label with its name).\nE. The place associated with the 'No Tax Campaign' of 1928.",
+        "chapter": "History (Nationalism in India) & Geography (Water Resources, Manufacturing Industries, Lifelines of National Economy)",
+        "unit": "History & Geography",
+        "marks": 5,
+        "type": "Map",
+        "confidence": "High",
+        "scheme": "A. **Ahmedabad** (Gujarat)\nB. **Himachal Pradesh** (or Punjab/Haryana border region for location)\nC. **Visakhapatnam / Chennai / Paradip / Kolkata / Haldia** (Any one correct port on eastern coast)\nD. **Bhilai** (Chhattisgarh)\nE. **Bardoli** (Gujarat)\n\n(1 mark for each correct identification and accurate plotting/labelling on the map.)",
+        "source_signals": [
+          "Map Work (100% guarantee)",
+          "High-Probability Intelligence: Peasant movements (Champaran, Kheda, Bardoli), Salt March route, Multipurpose dams (Bhakra-Nangal), Iron & Steel plants (Bhilai), Major ports (Visakhapatnam, Chennai, Kolkata)"
+        ],
+        "reason": "Map work is a guaranteed 5 marks. This question covers a mix of high-frequency historical and geographical map items as per the intelligence provided, ensuring comprehensive coverage.",
+        "composite_score": 0.0
+      }
+    ]
+  }
+}

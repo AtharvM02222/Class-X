@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-main.py — CBSE Class 10 Board Exam Predictor 2025
-Combines: CBSE Blueprint + Past Papers + Year Trend + YouTubers + Gemini Pro
+main.py — CBSE Class 10 Board Exam Predictor 2026
+Combines: CBSE Blueprint + Past Papers + Year Trend + YouTubers + Gemini Flash 2.5
 
 Usage:
     python main.py                              # all subjects, 25 questions each
@@ -38,7 +38,7 @@ from output.formatter import (print_banner, print_signal_summary,
 
 def parse_args():
     p = argparse.ArgumentParser(
-        description="CBSE Class 10 Board Exam Predictor 2025",
+        description="CBSE Class 10 Board Exam Predictor 2026",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
@@ -62,7 +62,7 @@ def main():
     print_banner()
     console.print(f"  Subjects : [cyan]{', '.join(SUBJECT_DISPLAY[s] for s in subjects)}[/cyan]")
     console.print(f"  Questions: [cyan]{args.num_questions} per subject[/cyan]")
-    console.print(f"  Model    : [cyan]Gemini 1.5 Pro[/cyan]\n")
+    console.print(f"  Model    : [cyan]Gemini 2.5 Flash[/cyan]\n")
 
     # ── 1. YouTube ────────────────────────────────────────────────────────
     yt_all = {s: {"chapter_scores": {}, "prediction_videos": [], "total_hits": 0} for s in subjects}
@@ -110,7 +110,7 @@ def main():
     console.print()
 
     # ── 4. Gemini ────────────────────────────────────────────────────────
-    console.print(Rule("[bold yellow]4 / 4  Gemini Pro Prediction Engine[/bold yellow]"))
+    console.print(Rule("[bold yellow]4 / 4  Gemini Flash Prediction Engine[/bold yellow]"))
     from engine.predictor import generate_predictions
     predictions = generate_predictions(
         subjects           = subjects,

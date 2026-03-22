@@ -1,0 +1,616 @@
+{
+  "generated_at": "2026-03-22T12:10:06.998767",
+  "tool": "CBSE Class 10 Board Predictor 2025",
+  "signals": [
+    "blueprint",
+    "past_papers",
+    "year_trend",
+    "youtube",
+    "gemini_pro"
+  ],
+  "chapter_scores": {
+    "science": {
+      "Chemical Reactions and Equations": {
+        "score": 0.5212,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Acids, Bases and Salts": {
+        "score": 0.4955,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Metals and Non-metals": {
+        "score": 0.4048,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Carbon and Its Compounds": {
+        "score": 0.4044,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Life Processes": {
+        "score": 0.6367,
+        "confidence": "High",
+        "rank": 1
+      },
+      "Control and Coordination": {
+        "score": 0.4267,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "How do Organisms Reproduce?": {
+        "score": 0.3682,
+        "confidence": "Low",
+        "rank": 11
+      },
+      "Heredity": {
+        "score": 0.2745,
+        "confidence": "Low",
+        "rank": 12
+      },
+      "Light - Reflection and Refraction": {
+        "score": 0.5125,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "The Human Eye and the Colourful World": {
+        "score": 0.3866,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Electricity": {
+        "score": 0.4698,
+        "confidence": "Medium",
+        "rank": 6
+      },
+      "Magnetic Effects of Electric Current": {
+        "score": 0.585,
+        "confidence": "Medium",
+        "rank": 2
+      },
+      "Our Environment": {
+        "score": 0.272,
+        "confidence": "Low",
+        "rank": 13
+      },
+      "Management of Natural Resources": {
+        "score": 0.2215,
+        "confidence": "Low",
+        "rank": 14
+      }
+    },
+    "math": {
+      "Real Numbers": {
+        "score": 0.5797,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Polynomials": {
+        "score": 0.4292,
+        "confidence": "Medium",
+        "rank": 13
+      },
+      "Pair of Linear Equations in Two Variables": {
+        "score": 0.5231,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "Quadratic Equations": {
+        "score": 0.7626,
+        "confidence": "High",
+        "rank": 1
+      },
+      "Arithmetic Progressions": {
+        "score": 0.3512,
+        "confidence": "Low",
+        "rank": 14
+      },
+      "Coordinate Geometry": {
+        "score": 0.5141,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Triangles": {
+        "score": 0.4747,
+        "confidence": "Medium",
+        "rank": 11
+      },
+      "Circles": {
+        "score": 0.4511,
+        "confidence": "Medium",
+        "rank": 12
+      },
+      "Introduction to Trigonometry": {
+        "score": 0.581,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "Some Applications of Trigonometry": {
+        "score": 0.649,
+        "confidence": "High",
+        "rank": 2
+      },
+      "Areas Related to Circles": {
+        "score": 0.4886,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Surface Areas and Volumes": {
+        "score": 0.5092,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Statistics": {
+        "score": 0.5934,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Probability": {
+        "score": 0.5284,
+        "confidence": "Medium",
+        "rank": 6
+      }
+    },
+    "social_science": {
+      "The Rise of Nationalism in Europe": {
+        "score": 0.4384,
+        "confidence": "Medium",
+        "rank": 8
+      },
+      "Nationalism in India": {
+        "score": 0.7075,
+        "confidence": "High",
+        "rank": 1
+      },
+      "The Making of a Global World": {
+        "score": 0.4143,
+        "confidence": "Medium",
+        "rank": 12
+      },
+      "The Age of Industrialisation": {
+        "score": 0.3196,
+        "confidence": "Low",
+        "rank": 16
+      },
+      "Resources and Development": {
+        "score": 0.5418,
+        "confidence": "Medium",
+        "rank": 2
+      },
+      "Forest and Wildlife Resources": {
+        "score": 0.3048,
+        "confidence": "Low",
+        "rank": 17
+      },
+      "Water Resources": {
+        "score": 0.4837,
+        "confidence": "Medium",
+        "rank": 4
+      },
+      "Agriculture": {
+        "score": 0.4164,
+        "confidence": "Medium",
+        "rank": 11
+      },
+      "Minerals and Energy Resources": {
+        "score": 0.303,
+        "confidence": "Low",
+        "rank": 18
+      },
+      "Manufacturing Industries": {
+        "score": 0.2625,
+        "confidence": "Low",
+        "rank": 20
+      },
+      "Lifelines of National Economy": {
+        "score": 0.2177,
+        "confidence": "Low",
+        "rank": 23
+      },
+      "Power Sharing": {
+        "score": 0.4386,
+        "confidence": "Medium",
+        "rank": 7
+      },
+      "Federalism": {
+        "score": 0.4096,
+        "confidence": "Medium",
+        "rank": 13
+      },
+      "Democracy and Diversity": {
+        "score": 0.3479,
+        "confidence": "Low",
+        "rank": 15
+      },
+      "Gender Religion and Caste": {
+        "score": 0.3745,
+        "confidence": "Low",
+        "rank": 14
+      },
+      "Popular Struggles and Movements": {
+        "score": 0.2449,
+        "confidence": "Low",
+        "rank": 21
+      },
+      "Political Parties": {
+        "score": 0.2397,
+        "confidence": "Low",
+        "rank": 22
+      },
+      "Outcomes of Democracy": {
+        "score": 0.4912,
+        "confidence": "Medium",
+        "rank": 3
+      },
+      "Development": {
+        "score": 0.4426,
+        "confidence": "Medium",
+        "rank": 6
+      },
+      "Sectors of the Indian Economy": {
+        "score": 0.4436,
+        "confidence": "Medium",
+        "rank": 5
+      },
+      "Money and Credit": {
+        "score": 0.4193,
+        "confidence": "Medium",
+        "rank": 10
+      },
+      "Globalisation and the Indian Economy": {
+        "score": 0.4365,
+        "confidence": "Medium",
+        "rank": 9
+      },
+      "Consumer Rights": {
+        "score": 0.2853,
+        "confidence": "Low",
+        "rank": 19
+      }
+    }
+  },
+  "predictions": {
+    "science": [
+      {
+        "rank": 1,
+        "question": "a) Draw a neat, labelled diagram of the human heart and show the path of blood flow through it.\nb) Explain the process of double circulation in humans, highlighting its significance.",
+        "chapter": "Life Processes",
+        "unit": "Biology",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "a) Diagram of human heart (2.5 marks):\n   - Correct structure and labelling of all four chambers, major blood vessels (aorta, vena cava, pulmonary artery, pulmonary vein), valves. (1.5 marks for structure, 1 mark for labels)\n   - Clear indication of blood flow direction (e.g., arrows). (0.5 mark)\nb) Explanation of double circulation (2.5 marks):\n   - Definition: Blood passes twice through the heart in one complete cycle. (0.5 mark)\n   - Pulmonary circulation: Blood from right ventricle to lungs and back to left atrium. (1 mark)\n   - Systemic circulation: Blood from left ventricle to body and back to right atrium. (1 mark)\n   - Significance: Ensures efficient supply of oxygenated blood to the body and separation of oxygenated and deoxygenated blood, which is necessary for warm-blooded animals with high energy needs. (0.5 mark)",
+        "source_signals": [
+          "Life Processes (Score:0.637, Conf:High, BP:1.00, Rank:#1)",
+          "Diagrams (Heart is perennial)"
+        ],
+        "reason": "Life Processes is the highest-scoring chapter with high confidence and 10-weight. The human heart diagram and double circulation are perennial LA topics, frequently appearing in board exams, aligning with the 'blood circulation diagram' safe bet.",
+        "composite_score": 0.637
+      },
+      {
+        "rank": 2,
+        "question": "A household has the following electrical appliances:\n(i) An electric heater of 2 kW used for 1 hour daily.\n(ii) Three LED bulbs of 10 W each used for 5 hours daily.\n(iii) An electric refrigerator of 400 W used for 10 hours daily.\n\nThe house is supplied with 220 V and the cost of electricity is ₹5 per unit.\n\nBased on the above information, answer the following questions:\na) Calculate the total energy consumed by the electric heater in a month (30 days) in kilowatt-hours.\nb) What is the total power consumed by all three LED bulbs when switched on simultaneously?\nc) Calculate the total electricity bill for the month of 30 days.\nd) If the refrigerator is connected to a 5 A fuse, will the fuse blow if the refrigerator is operated at 220 V?",
+        "chapter": "Electricity",
+        "unit": "Physics",
+        "marks": 5,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "a) Energy consumed by heater:\n   - Power = 2 kW, Time = 1 hr/day.\n   - Energy per day = 2 kW * 1 hr = 2 kWh.\n   - Energy per month = 2 kWh/day * 30 days = 60 kWh. (1.5 marks)\nb) Total power of LED bulbs:\n   - Power of one bulb = 10 W.\n   - Total power = 3 bulbs * 10 W/bulb = 30 W. (1 mark)\nc) Total electricity bill:\n   - Energy by heater = 60 kWh.\n   - Energy by bulbs = 3 * 10 W * 5 hr/day * 30 days = 30 W * 150 hr = 4500 Wh = 4.5 kWh. (0.5 mark)\n   - Energy by refrigerator = 400 W * 10 hr/day * 30 days = 4000 Wh/day * 30 days = 120000 Wh = 120 kWh. (0.5 mark)\n   - Total energy = 60 + 4.5 + 120 = 184.5 kWh. (0.5 mark)\n   - Total bill = 184.5 kWh * ₹5/kWh = ₹922.50. (0.5 mark)\nd) Fuse blowing for refrigerator:\n   - Power (P) = 400 W, Voltage (V) = 220 V.\n   - Current (I) = P/V = 400 W / 220 V ≈ 1.82 A. (0.5 mark)\n   - Since 1.82 A < 5 A, the fuse will not blow. (0.5 mark)",
+        "source_signals": [
+          "Electricity (Score:0.470, Conf:Medium, BP:0.70, Rank:#6)",
+          "Always numerical LA",
+          "Domestic wiring"
+        ],
+        "reason": "Electricity is a high-weight chapter with guaranteed numerical LAs. This case study combines calculations of energy consumption, power, and fuse rating, reflecting real-world application and typical CBSE numerical style.",
+        "composite_score": 0.47
+      },
+      {
+        "rank": 3,
+        "question": "a) What is a homologous series? Give any two characteristics of a homologous series.\nb) Draw the electron dot structure for ethanoic acid (CH₃COOH).\nc) Name the functional group present in propanone and draw its structure.",
+        "chapter": "Carbon and Its Compounds",
+        "unit": "Chemistry",
+        "marks": 3,
+        "type": "SA-II",
+        "confidence": "Medium",
+        "scheme": "a) Homologous series (1.5 marks):\n   - Definition: A series of organic compounds in which all members have the same functional group and similar chemical properties, and successive members differ by a -CH₂ group. (0.5 mark)\n   - Characteristics (any two, 0.5 mark each):\n     i) Same general formula.\n     ii) Successive members differ by -CH₂ group.\n     iii) Similar chemical properties.\n     iv) Gradation in physical properties.\n     v) Can be prepared by general methods.\nb) Electron dot structure for ethanoic acid (CH₃COOH) (1 mark):\n   - Correct representation of all valence electrons and bonds between C, H, O atoms. (1 mark)\nc) Functional group in propanone and its structure (0.5 mark):\n   - Functional group: Ketone. (0.25 mark)\n   - Structure of propanone (CH₃COCH₃): CH₃-CO-CH₃. (0.25 mark)",
+        "source_signals": [
+          "Carbon and Its Compounds (Score:0.404, Conf:Medium, BP:0.40, Gap:0.75, Rank:#9)",
+          "Due for LA in 2026",
+          "Homologous series",
+          "IUPAC nomenclature"
+        ],
+        "reason": "Carbon and Its Compounds is 'due for LA in 2026' and has a high gap bonus. This 3M question covers fundamental concepts like homologous series, electron dot structures, and functional groups, which are core to the chapter and often tested.",
+        "composite_score": 0.404
+      },
+      {
+        "rank": 4,
+        "question": "a) A student tested the pH of four solutions P, Q, R, and S using universal indicator paper. The pH values obtained were 13, 7, 2, and 9 respectively. Which solution is:\n   i) Strongly acidic?\n   ii) Strongly alkaline?\n   iii) Neutral?\n   iv) Weakly alkaline?\nb) Describe the preparation of 'Washing Soda' from 'Baking Soda'. Write the balanced chemical equations involved.",
+        "chapter": "Acids, Bases and Salts",
+        "unit": "Chemistry",
+        "marks": 3,
+        "type": "SA-II",
+        "confidence": "Medium",
+        "scheme": "a) Identifying solutions (1 mark, 0.25 mark each):\n   i) Strongly acidic: R (pH=2)\n   ii) Strongly alkaline: P (pH=13)\n   iii) Neutral: Q (pH=7)\n   iv) Weakly alkaline: S (pH=9)\nb) Preparation of Washing Soda (2 marks):\n   - Step 1: Heating baking soda (Sodium hydrogen carbonate) to produce sodium carbonate, water, and carbon dioxide.\n     2NaHCO₃(s) → Na₂CO₃(s) + H₂O(l) + CO₂(g) (1 mark for equation + description)\n   - Step 2: Recrystallisation of anhydrous sodium carbonate to form hydrated sodium carbonate (Washing Soda).\n     Na₂CO₃(s) + 10H₂O(l) → Na₂CO₃·10H₂O(s) (1 mark for equation + description)",
+        "source_signals": [
+          "Acids, Bases and Salts (Score:0.495, Conf:Medium, BP:0.80, Gap:0.45, Rank:#5)",
+          "pH",
+          "baking soda vs washing soda distinction",
+          "High-value SA-II or LA"
+        ],
+        "reason": "Acids, Bases and Salts has a high blueprint weight and is a high-value SA-II or LA. This question tests the application of pH concepts and the distinction/preparation of important salts like washing soda from baking soda, a common point of confusion for students.",
+        "composite_score": 0.495
+      },
+      {
+        "rank": 5,
+        "question": "An object 4 cm high is placed at a distance of 15 cm from a convex lens of focal length 10 cm.\na) Calculate the position and nature of the image formed.\nb) Draw a neat ray diagram to show the formation of the image.",
+        "chapter": "Light - Reflection and Refraction",
+        "unit": "Physics",
+        "marks": 3,
+        "type": "SA-II",
+        "confidence": "Medium",
+        "scheme": "a) Calculation (2 marks):\n   - Given: h_o = 4 cm, u = -15 cm, f = +10 cm (for convex lens).\n   - Lens formula: 1/v - 1/u = 1/f\n   - 1/v - 1/(-15) = 1/10\n   - 1/v + 1/15 = 1/10\n   - 1/v = 1/10 - 1/15 = (3 - 2)/30 = 1/30\n   - v = +30 cm. (0.5 mark)\n   - Position: Image is formed at 30 cm on the other side of the lens. (0.5 mark)\n   - Magnification (m) = v/u = 30/(-15) = -2.\n   - Nature: Real, inverted. (0.5 mark)\n   - Image height (h_i) = m * h_o = -2 * 4 = -8 cm. (0.5 mark)\n   - Size: Magnified (8 cm). (Implied from magnification)\nb) Ray diagram (1 mark):\n   - Correctly drawn convex lens with principal axis, optical centre, F and 2F marked on both sides. (0.25 mark)\n   - Object placed at 15 cm (between F and 2F). (0.25 mark)\n   - At least two correct rays (e.g., parallel to principal axis passing through F; passing through optical centre undeviated). (0.25 mark)\n   - Correct image formation at 30 cm (beyond 2F on the other side), showing real, inverted, and magnified image. (0.25 mark)",
+        "source_signals": [
+          "Light - Reflection and Refraction (Score:0.512, Conf:Medium, BP:0.70, Rank:#4)",
+          "Mirror/lens formula numericals",
+          "ray diagrams with object positions",
+          "Near-certain LA"
+        ],
+        "reason": "Light is a high-weight chapter. Lens numericals combined with ray diagrams are a recurring and essential part of the exam, often appearing as SA-II or LA questions, testing both conceptual understanding and application skills.",
+        "composite_score": 0.512
+      },
+      {
+        "rank": 6,
+        "question": "State the principle of an electric motor. Explain how the direction of rotation of the coil in an electric motor can be reversed.",
+        "chapter": "Magnetic Effects of Electric Current",
+        "unit": "Physics",
+        "marks": 2,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "Principle of electric motor (1 mark):\n   - An electric motor works on the principle that when a current-carrying conductor is placed in a magnetic field, it experiences a force. If the direction of the current and the magnetic field are mutually perpendicular, the force experienced is also perpendicular to both, causing rotation.\nReversing direction of rotation (1 mark):\n   - The direction of rotation of the coil can be reversed by either:\n     i) Reversing the direction of current flowing through the coil, OR\n     ii) Reversing the direction of the magnetic field.",
+        "source_signals": [
+          "Magnetic Effects of Electric Current (Score:0.585, Conf:Medium, BP:0.60, Rank:#2)"
+        ],
+        "reason": "Magnetic Effects of Electric Current is a high-scoring chapter. The principle and working of an electric motor are fundamental concepts and frequently asked as SA-I or SA-II questions.",
+        "composite_score": 0.585
+      },
+      {
+        "rank": 7,
+        "question": "a) Identify the type of reaction in the following equation:\n   Fe₂O₃(s) + 2Al(s) → Al₂O₃(s) + 2Fe(l)\nb) Balance the following chemical equation:\n   BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + NaCl(aq)",
+        "chapter": "Chemical Reactions and Equations",
+        "unit": "Chemistry",
+        "marks": 2,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "a) Type of reaction (1 mark):\n   - Displacement reaction (specifically, a more reactive metal displacing a less reactive metal from its oxide). (1 mark)\nb) Balanced chemical equation (1 mark):\n   - BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq) (1 mark for correct balancing)",
+        "source_signals": [
+          "Chemical Reactions and Equations (Score:0.521, Conf:Medium, BP:0.70, Gap:0.45, Rank:#3)",
+          "Balancing equations (always MCQ + SA)",
+          "types of reactions"
+        ],
+        "reason": "Chemical Reactions and Equations is a core chapter with a gap bonus. Balancing equations and identifying reaction types are fundamental skills always tested, making this a high-probability SA-I question.",
+        "composite_score": 0.521
+      },
+      {
+        "rank": 8,
+        "question": "Assertion (A): The inner lining of the small intestine has numerous finger-like projections called villi.\nReason (R): Villi increase the surface area for absorption of digested food.",
+        "chapter": "Life Processes",
+        "unit": "Biology",
+        "marks": 1,
+        "type": "MCQ (Assertion-Reason)",
+        "confidence": "High",
+        "scheme": "Option A: Both A and R are true and R is the correct explanation of A.",
+        "source_signals": [
+          "Life Processes (Score:0.637, Conf:High, BP:1.00, Rank:#1)",
+          "Assertion-Reason type MCQs"
+        ],
+        "reason": "Life Processes is the highest-ranking chapter. Assertion-Reason questions are a standard MCQ type in Science, and the function of villi is a key concept in nutrition, making it a strong candidate.",
+        "composite_score": 0.637
+      },
+      {
+        "rank": 9,
+        "question": "Assertion (A): In humans, the sex of the child is determined by the father.\nReason (R): Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY).",
+        "chapter": "Heredity",
+        "unit": "Biology",
+        "marks": 1,
+        "type": "MCQ (Assertion-Reason)",
+        "confidence": "Low",
+        "scheme": "Option A: Both A and R are true and R is the correct explanation of A.",
+        "source_signals": [
+          "Heredity (Score:0.275, Conf:Low, BP:0.30, Gap:0.45, Rank:#12)",
+          "High gap bonus",
+          "sex determination",
+          "Assertion-Reason type MCQs"
+        ],
+        "reason": "Heredity has a 'high gap bonus' and sex determination is a key, often misunderstood, concept. This makes it suitable for an Assertion-Reason question to test conceptual clarity.",
+        "composite_score": 0.275
+      },
+      {
+        "rank": 10,
+        "question": "Which of the following is an example of a biodegradable waste?\na) Plastic bottles\nb) Aluminium cans\nc) Vegetable peels\nd) Glass shards",
+        "chapter": "Our Environment",
+        "unit": "Biology",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "Low",
+        "scheme": "Option c) Vegetable peels",
+        "source_signals": [
+          "Our Environment (Score:0.272, Conf:Low, BP:0.30, Rank:#13)"
+        ],
+        "reason": "Our Environment is a lower-weight chapter, but basic concepts like biodegradable/non-biodegradable waste are frequently tested as simple 1-mark MCQs.",
+        "composite_score": 0.272
+      }
+    ],
+    "math": [],
+    "social_science": [
+      {
+        "rank": 1,
+        "question": "Mahatma Gandhi's call for 'Swaraj' resonated deeply with various sections of Indian society during the Non-Cooperation Movement (1920-22). However, the interpretation of 'Swaraj' differed significantly among different social groups, leading to varied participation and outcomes.\n\nAnalyse the diverse interpretations and aspirations of 'Swaraj' for different social groups who participated in the Non-Cooperation Movement. Why did the movement ultimately lose its momentum and was called off?",
+        "chapter": "Nationalism in India",
+        "unit": "History",
+        "marks": 5,
+        "type": "LA",
+        "confidence": "High",
+        "scheme": "• Diverse interpretations of 'Swaraj' (3 points, 1 mark each):\n  1.  **Middle Class (Cities):** Swaraj meant self-rule, end of British rule, economic boycott of foreign goods, and promotion of Indian industries.\n  2.  **Peasants (Awadh, Gudem Hills):** Swaraj meant reduction of oppressive land revenue, abolition of begar (forced labour), social boycott of oppressive landlords, and redistribution of land. They often linked it to Gandhi's name and local grievances.\n  3.  **Tribals (Gudem Hills, Andhra Pradesh):** Swaraj meant restoration of traditional forest rights, freedom to graze cattle, collect fuelwood and fruits, and an end to colonial policies that restricted their livelihoods. They often resorted to militant guerrilla warfare under leaders like Alluri Sitaram Raju.\n  4.  **Plantation Workers (Assam):** Swaraj meant the right to move freely in and out of the enclosed plantations, retaining a link with their native villages, and an end to the Inland Emigration Act of 1859. They believed Gandhi Raj would grant them land in their own villages.\n• Reasons for loss of momentum and calling off (2 points, 1 mark each):\n  1.  **Chauri Chaura Incident (1922):** The violent clash where protestors set fire to a police station, killing policemen, convinced Gandhi that the movement was turning violent and satyagrahis needed proper training before mass struggle.\n  2.  **Lack of alternatives:** Khadi cloth was often more expensive than mill cloth, making it difficult for poor people to boycott foreign goods for long. Indian institutions (schools, colleges, courts) were slow to be set up, making it difficult for students and professionals to sustain the boycott.\n  3.  **Internal divisions/Fatigue:** Some leaders within the Congress were tired of mass struggles and wanted to participate in council elections.",
+        "source_signals": [
+          "Nationalism in India (Score:0.708, Conf:High, BP:1.00, Rank:#1)",
+          "Guaranteed SA-II or LA",
+          "YT:Digraj Singh Rajput"
+        ],
+        "reason": "This chapter is consistently high-weight and 'guaranteed SA-II or LA'. The question requires analytical thinking about diverse perspectives, a common CBSE pattern, moving beyond mere factual recall. The 'why it lost momentum' part is also a frequent sub-question.",
+        "composite_score": 0.708
+      },
+      {
+        "rank": 2,
+        "question": "Read the following case study and answer the questions that follow:\n\nIn a hypothetical country, 'Agraria', the Gross Domestic Product (GDP) has been growing steadily at 7% per annum for the last decade. The per capita income has also shown a significant increase. However, recent reports indicate a widening gap between the rich and the poor, with a small percentage of the population controlling a large share of the national wealth. Furthermore, the country's rapid industrialisation has led to severe environmental degradation, including air and water pollution, and depletion of natural resources. A recent survey revealed that despite higher incomes, access to quality healthcare and education remains a challenge for a substantial portion of the population, especially in rural areas.\n\n(a) Based on the information provided, do you think 'Agraria' is truly developed? Justify your answer with two arguments. (2 marks)\n(b) Suggest two measures that the government of 'Agraria' could adopt to achieve more sustainable and equitable development. (2 marks)\n(c) Why is 'Per Capita Income' alone not considered a sufficient indicator for comparing the development of countries? (1 mark)",
+        "chapter": "Development",
+        "unit": "Economics",
+        "marks": 5,
+        "type": "Case Study",
+        "confidence": "Medium",
+        "scheme": "(a) No, Agraria is not truly developed. (1 mark for 'No')\n    Justification (any two, 1 mark each):\n    1.  **Inequality:** The widening gap between rich and poor indicates that the benefits of growth are not reaching all sections of society.\n    2.  **Environmental Degradation:** Rapid industrialisation has caused severe pollution and resource depletion, compromising future generations' ability to meet their needs.\n    3.  **Lack of Human Development:** Despite higher incomes, access to quality healthcare and education is poor for many, indicating a low Human Development Index (HDI).\n(b) Measures for sustainable and equitable development (any two, 1 mark each):\n    1.  **Promote inclusive growth policies:** Implement progressive taxation, social welfare schemes, and employment generation programs to reduce income inequality.\n    2.  **Invest in human capital:** Increase public spending on quality education and healthcare, especially in rural and underserved areas.\n    3.  **Adopt green technologies and policies:** Implement stricter environmental regulations, promote renewable energy, and encourage sustainable resource management practices.\n    4.  **Decentralised planning:** Empower local bodies for better resource allocation and community participation.\n(c) Per Capita Income is not sufficient because (any one, 1 mark):\n    1.  It hides disparities: It does not reveal how income is distributed among the people.\n    2.  It ignores non-material aspects: It does not account for factors like health, education, environmental quality, or peace, which are crucial for overall well-being.",
+        "source_signals": [
+          "Development (Score:0.443, Conf:Medium, BP:0.62, Rank:#6)",
+          "Always present (Development)",
+          "CBSE-style application-based question"
+        ],
+        "reason": "Development is a core chapter, and questions comparing economic growth with human development and sustainability are frequent. This case study format allows for application of concepts like HDI, income distribution, and sustainable development, which is a typical CBSE approach.",
+        "composite_score": 0.443
+      },
+      {
+        "rank": 3,
+        "question": "On the given political outline map of India, identify the following features:\n\n**A. History (Identification/Locating and Labelling):**\n  (i) The place where Mahatma Gandhi organised Satyagraha for indigo planters.\n  (ii) The place associated with the calling off of the Non-Cooperation Movement.\n\n**B. Geography (Locating and Labelling):**\n  (iii) A major multi-purpose river valley project on the river Mahanadi.\n  (iv) A major Iron and Steel Plant located in Chhattisgarh.\n  (v) A major seaport on the eastern coast of India, known for its deep inland harbour.",
+        "chapter": "Map Work (History & Geography)",
+        "unit": "Map Work",
+        "marks": 5,
+        "type": "Map",
+        "confidence": "High",
+        "scheme": "(i) Champaran (Bihar) - 1 mark\n(ii) Chauri Chaura (Uttar Pradesh) - 1 mark\n(iii) Hirakud Dam (Odisha) - 1 mark\n(iv) Bhilai Iron and Steel Plant (Chhattisgarh) - 1 mark\n(v) Visakhapatnam Port (Andhra Pradesh) - 1 mark\n(Each correctly identified and labelled location on the map fetches 1 mark.)",
+        "source_signals": [
+          "Map Work (100% guarantee)",
+          "History: Peasant movements (Champaran), Salt March locations (Chauri Chaura is related to NCM)",
+          "Geography: Multipurpose dams (Hirakud), Iron & Steel plants (Bhilai), Major ports (Visakhapatnam)"
+        ],
+        "reason": "Map work is a guaranteed 5 marks. This question covers key historical sites from 'Nationalism in India' and important geographical features (dams, industries, ports) as specified in the intelligence, ensuring a balanced coverage.",
+        "composite_score": 0.0
+      },
+      {
+        "rank": 4,
+        "question": "Explain any three significant steps taken towards decentralisation in India after the constitutional amendment of 1992.",
+        "chapter": "Federalism",
+        "unit": "Civics",
+        "marks": 3,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "Any three of the following points (1 mark each):\n1.  **Mandatory Elections:** It was made constitutionally mandatory to hold regular elections to local government bodies (Panchayats and Municipalities).\n2.  **Reservation of Seats:** Seats were reserved for Scheduled Castes (SCs), Scheduled Tribes (STs), and Other Backward Classes (OBCs) in the elected bodies and for the posts of chairpersons.\n3.  **Women's Reservation:** At least one-third of all positions were reserved for women.\n4.  **State Election Commission:** An independent State Election Commission was created in each state to conduct panchayat and municipal elections.\n5.  **State Finance Commission:** State governments were required to share some powers and revenue with local government bodies, and a State Finance Commission was constituted to review the financial position of local bodies.",
+        "source_signals": [
+          "Federalism (Score:0.410, Conf:Medium, BP:0.62, Rank:#13)",
+          "Decentralisation, panchayati raj",
+          "Reliable SA or LA"
+        ],
+        "reason": "Decentralisation and Panchayati Raj are central themes in 'Federalism' and are frequently tested. This question directly addresses the impact of the 1992 amendment, requiring specific factual recall and understanding of its significance.",
+        "composite_score": 0.41
+      },
+      {
+        "rank": 5,
+        "question": "How did culture, language, and romanticism play a crucial role in creating the idea of the 'nation' in Europe during the 18th and 19th centuries? Explain with suitable examples.",
+        "chapter": "The Rise of Nationalism in Europe",
+        "unit": "History",
+        "marks": 3,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "Any three points with examples (1 mark each):\n1.  **Romanticism:** Romantic artists and poets criticised the glorification of reason and science, focusing instead on emotions, intuition, and mystical feelings. They sought to create a sense of a shared collective heritage, a common cultural past, as the basis of a nation. (e.g., German philosophers like Johann Gottfried Herder claimed that true German culture was to be discovered among the common people – das Volk).\n2.  **Folk Culture/Vernacular Language:** Collecting and recording forms of folk culture (folk songs, folk poetry, folk dances) was essential to the project of nation-building. This was done to carry the nationalist message to a large audience who were mostly illiterate. The emphasis on vernacular language and the collection of local folklore was not just to recover an ancient national spirit but also to carry the modern nationalist message to large audiences who were mostly illiterate. (e.g., Karol Kurpinski celebrated the national struggle through his operas and music, turning folk dances like the polonaise and mazurka into nationalist symbols).\n3.  **Language as a tool:** Language played a significant role in developing nationalist sentiments. After Russian occupation, the Polish language was forced out of schools, and Russian was imposed everywhere. The use of Polish came to be seen as a symbol of the struggle against Russian dominance. (e.g., Clergy in Poland used Polish for church gatherings and religious instruction, defying Russian authorities and becoming a symbol of resistance).",
+        "source_signals": [
+          "The Rise of Nationalism in Europe (Score:0.438, Conf:Medium, BP:0.62, Rank:#8)",
+          "Frequent SA-II (can be 3M or 5M)",
+          "Allegorical figures (related to cultural nationalism)"
+        ],
+        "reason": "This chapter frequently tests the non-military aspects of nationalism. The role of culture, language, and romanticism is a key concept that requires analytical explanation with examples, fitting the 3-mark structure well.",
+        "composite_score": 0.438
+      },
+      {
+        "rank": 6,
+        "question": "The 'Sectors of the Indian Economy' are often classified based on the nature of economic activity. Distinguish between the 'organised' and 'unorganised' sectors of the Indian economy based on any three criteria.",
+        "chapter": "Sectors of the Indian Economy",
+        "unit": "Economics",
+        "marks": 3,
+        "type": "SA-I",
+        "confidence": "Medium",
+        "scheme": "Distinction between Organised and Unorganised sectors (any three points, 1 mark for each distinguishing feature):\n1.  **Employment Terms:**\n    *   **Organised:** Workers have secure employment, regular work hours, and receive benefits.\n    *   **Unorganised:** Employment is irregular, often temporary, and work hours are not fixed.\n2.  **Government Regulation:**\n    *   **Organised:** Registered with the government, follows rules and regulations (e.g., Factories Act, Minimum Wages Act, Gratuity Act).\n    *   **Unorganised:** Largely outside government control, rules and regulations are not followed.\n3.  **Benefits/Facilities:**\n    *   **Organised:** Workers get paid leave, provident fund, gratuity, medical benefits, fixed working hours, and safe working environment.\n    *   **Unorganised:** No paid leave, no provident fund, no gratuity, no medical benefits, no fixed working hours, and often unsafe working conditions.\n4.  **Job Security:**\n    *   **Organised:** High job security; workers cannot be fired without valid reasons.\n    *   **Unorganised:** Low job security; workers can be asked to leave anytime.",
+        "source_signals": [
+          "Sectors of Indian Economy (Score:0.444, Conf:Medium, BP:0.62, Rank:#5)",
+          "LA candidate (can be 3M too)",
+          "Organised vs Unorganised"
+        ],
+        "reason": "The distinction between organised and unorganised sectors is a fundamental concept in this chapter and a very common question type. It requires clear comparative analysis, suitable for a 3-mark question.",
+        "composite_score": 0.444
+      },
+      {
+        "rank": 7,
+        "question": "Which of the following is NOT a form of power sharing in modern democracies?\n\n(A) Power shared among different organs of government.\n(B) Power shared among different levels of government.\n(C) Power shared among different social groups.\n(D) Power shared among different political parties in a one-party system.",
+        "chapter": "Power Sharing",
+        "unit": "Civics",
+        "marks": 1,
+        "type": "MCQ",
+        "confidence": "Medium",
+        "scheme": "(D) Power shared among different political parties in a one-party system.",
+        "source_signals": [
+          "Power Sharing (Score:0.439, Conf:Medium, BP:0.62, Rank:#7)",
+          "Forms of power sharing"
+        ],
+        "reason": "This question tests the basic understanding of the different forms of power sharing, a core concept from the chapter. MCQs often target such fundamental definitions and distinctions.",
+        "composite_score": 0.439
+      },
+      {
+        "rank": 8,
+        "question": "What is meant by 'legitimacy' in the context of democratic outcomes?",
+        "chapter": "Outcomes of Democracy",
+        "unit": "Civics",
+        "marks": 1,
+        "type": "VSA",
+        "confidence": "Medium",
+        "scheme": "Legitimacy refers to the acceptance by the people that the government is rightful and fair, and its decisions are generally accepted. A democratic government is considered a legitimate government because it is elected by the people and accountable to them.",
+        "source_signals": [
+          "Outcomes of Democracy (Score:0.491, Conf:Medium, BP:0.25, Rank:#3)",
+          "YT:Digraj Singh Rajput (Outcomes of Democracy)"
+        ],
+        "reason": "'Outcomes of Democracy' often features questions on key terms like legitimacy, accountability, and responsiveness. A VSA is perfect for testing the definition of such concepts.",
+        "composite_score": 0.491
+      },
+      {
+        "rank": 9,
+        "question": "Assertion (A): Sustainable development is crucial for the future of humanity.\nReason (R): Resources are limited, and their over-exploitation can lead to environmental degradation and depletion for future generations.\n\n(A) Both A and R are true, and R is the correct explanation of A.\n(B) Both A and R are true, but R is not the correct explanation of A.\n(C) A is true, but R is false.\n(D) A is false, but R is true.",
+        "chapter": "Resources and Development",
+        "unit": "Geography",
+        "marks": 1,
+        "type": "Assertion-Reason",
+        "confidence": "Medium",
+        "scheme": "(A) Both A and R are true, and R is the correct explanation of A.",
+        "source_signals": [
+          "Resources and Development (Score:0.542, Conf:Medium, BP:0.62, Rank:#2)",
+          "Sustainable development",
+          "CBSE-style Assertion-Reason"
+        ],
+        "reason": "Sustainable development is a key concept in 'Resources and Development'. Assertion-Reason questions are increasingly common in CBSE, and this format tests conceptual understanding and the logical link between ideas.",
+        "composite_score": 0.542
+      },
+      {
+        "rank": 10,
+        "question": "Name any two major challenges faced by the Indian Railways as a 'Lifeline of National Economy'.",
+        "chapter": "Lifelines of National Economy",
+        "unit": "Geography",
+        "marks": 1,
+        "type": "VSA",
+        "confidence": "Medium",
+        "scheme": "Any two of the following:\n1.  **Overcrowding:** Many passengers travel without tickets.\n2.  **Theft and damage:** Theft of railway property and damaging railway tracks/coaches.\n3.  **Chain pulling:** Unnecessary chain pulling causes heavy losses to the railways.\n4.  **Slow Speed:** Inadequate infrastructure and old technology in some sections lead to slower speeds compared to global standards.\n5.  **Safety Concerns:** Incidents of accidents, though reduced, remain a challenge.",
+        "source_signals": [
+          "Lifelines of National Economy (Overdue, gap:1.0)",
+          "CBSE-style specific question"
+        ],
+        "reason": "This chapter is 'overdue' with a gap of 1.0, making it a high-probability candidate for inclusion. A VSA on challenges of a key transport system is a typical question type, requiring specific factual recall.",
+        "composite_score": 0.218
+      }
+    ]
+  }
+}
