@@ -57,16 +57,16 @@ def score_subject(subject: str, pdf: dict, yt: dict, trend: dict) -> dict[str, d
             "rank":       0,   # filled below
             "unit":       bp_data[ch].get("unit",""),
             "key_topics": bp_data[ch].get("key_topics",[]),
-            "breakdown": {
-                "blueprint":    round(bp,3),
-                "pyq_freq":     round(pdf_freq.get(ch,0),3),
-                "year_trend":   round(fq,3),
-                "gap_bonus":    round(gp,3),
-                "yt_signal":    round(yt,3),
-                "yt_pred":      round(yp,3),
-                "ncert":        round(nc,3),
-                "unit_balance": round(ub,3),
-                "alternation":  round(al,3),
+            "components": {
+                "blueprint":        round(bp,3),
+                "past_papers":      round(pdf_freq.get(ch,0),3),
+                "year_trend":       round(fq,3),
+                "gap_bonus":        round(gp,3),
+                "yt_signal":        round(yt,3),
+                "yt_pred":          round(yp,3),
+                "ncert":            round(nc,3),
+                "unit_balance":     round(ub,3),
+                "alternation_adj":  round(al,3),
             },
         }
 

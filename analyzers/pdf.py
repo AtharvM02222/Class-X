@@ -96,5 +96,5 @@ def analyze_pdfs(paths: list[Path], subject: str) -> dict:
         "total_papers": len(paths),
     }
 
-def analyze_all(papers: dict[str, list[Path]]) -> dict[str, dict]:
+def analyze_all_subjects(papers: dict[str, list[Path]]) -> dict[str, dict]:
     return {s: analyze_pdfs(paths, s) for s, paths in papers.items()}

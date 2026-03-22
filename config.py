@@ -15,10 +15,10 @@ for _d in [PAPERS_DIR, CACHE_DIR, RAW_DIR, OUTPUT_DIR,
 
 # ── API ───────────────────────────────────────────────────────────────────────
 GEMINI_API_KEY    = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL      = "gemini-1.5-pro"
+GEMINI_MODEL      = "gemini-2.5-flash"
 GEMINI_FLASH      = "gemini-1.5-flash"
 GEMINI_TEMP       = 0.35
-GEMINI_MAX_TOK    = 8192
+GEMINI_MAX_TOKENS  = 8192
 
 # ── Subjects ──────────────────────────────────────────────────────────────────
 SUBJECTS = ["science", "math", "social_science"]
@@ -148,7 +148,7 @@ assert abs(sum(WEIGHTS.values()) - 1.0) < 0.001, "Weights must sum to 1.0"
 
 # ── Output ────────────────────────────────────────────────────────────────────
 CONFIDENCE_BANDS = {"High": 0.62, "Medium": 0.38, "Low": 0.0}
-Q_DIST = {   # questions per mark type per subject
+QUESTION_DISTRIBUTION = {   # questions per mark type per subject
     "science":        {1: 20, 2: 6, 3: 7, 5: 3},
     "math":           {1: 20, 2: 5, 3: 6, 4: 4},
     "social_science": {1: 20, 3: 5, 5: 4},

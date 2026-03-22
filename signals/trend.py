@@ -64,7 +64,7 @@ def unit_balance(subject: str, chap_freq: dict) -> dict[str, float]:
         result[ch] = round((1.0 - sat) * 0.25, 4)   # inverse saturation bonus
     return result
 
-def compute_all(subjects: list[str], pdf_analysis: dict) -> dict[str, dict]:
+def get_all_trend_signals(subjects: list[str], pdf_analysis: dict) -> dict[str, dict]:
     return {
         s: {
             "gap_bonus":    gap_bonus(s),

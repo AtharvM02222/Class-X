@@ -12,7 +12,7 @@ from rich.columns import Columns
 from rich.progress import BarColumn, Progress
 from rich.rule import Rule
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from config import REPORTS_DIR
+from config import OUTPUT_DIR
 
 console = Console(highlight=False)
 

@@ -78,7 +78,7 @@ def scrape_youtube(subjects: list[str], force: bool = False) -> dict[str, dict]:
         all_videos.extend(vids)
         print(f"{len(vids)} videos")
 
-    result = {s:{"chapter_scores":Counter(),"prediction_videos":[],"channel_breakdown":defaultdict(Counter),"total_pred_videos":0} for s in subjects}
+    result = {s:{"chapter_scores":Counter(),"prediction_videos":[],"channel_breakdown":defaultdict(Counter),"total_hits":0} for s in subjects}
 
     for vid in all_videos:
         full   = vid["title"] + " " + vid["description"]
@@ -99,7 +99,7 @@ def scrape_youtube(subjects: list[str], force: bool = False) -> dict[str, dict]:
                     "title":vid["title"],"channel":vid["channel"],"score":pscore,
                     "views":vid["view_count"],"date":vid["upload_date"],
                     "chapters":[c for c,_ in chapters]})
-                result[subject]["total_pred_videos"] += 1
+                result[subject]["total_hits"] += 1
 
     for s in subjects:
         result[s]["chapter_scores"]    = dict(result[s]["chapter_scores"].most_common(25))
