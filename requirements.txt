@@ -1,7 +1,31 @@
+# CBSE Class 10 Board Exam Predictor 2027 — MEGA EDITION
+# Core dependencies
 yt-dlp>=2024.1.0
 pdfplumber>=0.10.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=5.0.0
-google-generativeai>=0.7.0
+google-generativeai>=0.8.0
 rich>=13.7.0
+
+# PDF handling
+PyPDF2>=3.0.0
+pdf2image>=1.17.0
+
+# OCR (optional - for scanned papers)
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# HTTP caching
+requests-cache>=1.2.0
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# HTML/PDF export
+jinja2>=3.1.0
+markdown>=3.5.0
