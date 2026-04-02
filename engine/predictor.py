@@ -2,25 +2,27 @@
 import json, sys, re
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from config import GEMINI_API_KEY, GEMINI_MODEL, GEMINI_TEMP, GEMINI_MAX_TOKENS, QUESTION_DISTRIBUTION
+from config import (GEMINI_API_KEY, GEMINI_MODEL, GEMINI_TEMP, GEMINI_MAX_TOKENS,
+                    QUESTION_DISTRIBUTION, TARGET_YEAR, CURRENT_SESSION)
 from blueprint import BLUEPRINT
 import google.generativeai as genai
 
-# ── Expert Intelligence (from IMP.md) ─────────────────────────────────────────
+# ── Expert Intelligence (from IMP.md + 2027 Updates) ──────────────────────────
 SUBJECT_INTELLIGENCE = {
     "science": """
-### Science-Specific Intelligence (2026 Target)
-- **Life Processes** (10-weight, 8/8 years): SA-II or LA every year. Photosynthesis formula, excretion (nephron diagram), blood circulation diagram are safe bets.
-- **Light — Reflection & Refraction** (7-weight, 8/8 years): Mirror/lens formula numericals, ray diagrams with object positions, power of lens. Mirror formula + ray diagram is a near-certain LA.
-- **Electricity** (7-weight, 8/8 years): Ohm's law derivation, series/parallel resistance, Joule's heating numerical, domestic wiring. Always numerical LA.
-- **Chemical Reactions** (7-weight, 8/8 years): Balancing equations (always MCQ + SA), types of reactions, corrosion/rancidity.
+### Science-Specific Intelligence (2027 Target)
+- **Life Processes** (10-weight, 10/10 years): SA-II or LA every year. Photosynthesis formula, excretion (nephron diagram), blood circulation diagram are safe bets.
+- **Light — Reflection & Refraction** (7-weight, 10/10 years): Mirror/lens formula numericals, ray diagrams with object positions, power of lens. Mirror formula + ray diagram is a near-certain LA.
+- **Electricity** (7-weight, 10/10 years): Ohm's law derivation, series/parallel resistance, Joule's heating numerical, domestic wiring. Always numerical LA.
+- **Chemical Reactions** (7-weight, 10/10 years): Balancing equations (always MCQ + SA), types of reactions, corrosion/rancidity.
 - **Acids, Bases and Salts** (8-weight, highest blueprint weight): pH, neutralisation, baking soda vs washing soda distinction, bleaching powder. High-value SA-II or LA.
-- **Carbon and Its Compounds** (gap: last seen 2023): Homologous series, IUPAC nomenclature, ethanol vs ethanoic acid, soaps/detergents mechanism. Due for LA in 2026.
-- **Heredity** (gap: 2023 only recent): Mendel's laws, monohybrid/dihybrid cross diagram, sex determination. High gap bonus.
+- **Carbon and Its Compounds** (gap: last seen 2024): Homologous series, IUPAC nomenclature, ethanol vs ethanoic acid, soaps/detergents mechanism. Due for LA in 2027.
+- **Heredity** (gap analysis): Mendel's laws, monohybrid/dihybrid cross diagram, sex determination. High gap bonus in 2027.
+- **COMPETENCY-BASED (NEP 2020)**: Case studies with real-world applications, diagram-based analysis, experimental reasoning are MANDATORY in 2027.
 - **Diagrams**: Ray diagrams (Light), circuit diagrams (Electricity), reflex arc (Control), nephron/heart (Life Processes) are perennial.
 """,
     "math": """
-### Mathematics-Specific Intelligence (2026 Target)
+### Mathematics-Specific Intelligence (2027 Target)
 - **Real Numbers**: HCF/LCM by Euclid's algorithm is MCQ every year. Irrationality proofs appear in SA.
 - **Quadratic Equations**: Discriminant nature-of-roots is guaranteed MCQ. Word problems (speed/time, dimensions) appear as LA.
 - **Arithmetic Progressions**: nth term + sum of n terms word problems are SA-II/LA staples.
@@ -28,27 +30,36 @@ SUBJECT_INTELLIGENCE = {
 - **Trigonometry**: Identity-based simplifications appear every year. Heights & Distances word problems (2 buildings, tower/river) are guaranteed SA-II or LA.
 - **Statistics**: Mean by step-deviation method, median from ogive, mode — all three types appear in one question or separately.
 - **Circles**: Tangent-length from external point + proof of tangent perpendicular to radius — near-certain.
-- **Areas Related to Circles** (gap: last seen 2023): Sector/segment area combination figures — overdue.
+- **Areas Related to Circles** (gap: last seen 2024): Sector/segment area combination figures — overdue for 2027.
+- **COMPETENCY-BASED (NEP 2020)**: Application-based numericals using real-life scenarios (EMI, taxes, profit/loss with algebra), data interpretation, multi-step problem solving.
 """,
     "social_science": """
-### Social Science-Specific Intelligence (2026 Target)
-- **Nationalism in India** (8-weight, 8/8 years): Non-Cooperation Movement, Civil Disobedience, Rowlatt Act, Gandhi's role — guaranteed SA-II or LA.
-- **Power Sharing** (5-weight, 8/8 years): Belgium vs Sri Lanka case, forms of power sharing, coalition — reliable SA or LA.
-- **Development** (5-weight, 8/8 years): Per capita income vs HDI, Kerala-Punjab comparison, sustainable development — always present.
-- **Federalism** (5-weight, 7/8 years): Decentralisation, panchayati raj, coming together vs holding together — SA or LA.
-- **The Rise of Nationalism in Europe** (7/8 years): Massini/Garibaldi, German/Italian unification, Zollverein, allegorical figures — frequent SA-II.
+### Social Science-Specific Intelligence (2027 Target)
+- **Nationalism in India** (8-weight, 10/10 years): Non-Cooperation Movement, Civil Disobedience, Rowlatt Act, Gandhi's role — guaranteed SA-II or LA.
+- **Power Sharing** (5-weight, 10/10 years): Belgium vs Sri Lanka case, forms of power sharing, coalition — reliable SA or LA.
+- **Development** (5-weight, 10/10 years): Per capita income vs HDI, Kerala-Punjab comparison, sustainable development — always present.
+- **Federalism** (5-weight, 9/10 years): Decentralisation, panchayati raj, coming together vs holding together — SA or LA.
+- **The Rise of Nationalism in Europe** (9/10 years): Massini/Garibaldi, German/Italian unification, Zollverein, allegorical figures — frequent SA-II.
 - **Sectors of Indian Economy**: Primary/secondary/tertiary, GDP, NREGA, organised vs unorganised — LA candidate.
+- **COMPETENCY-BASED (NEP 2020)**: Source-based questions, data interpretation, map-based analysis, case studies from current affairs.
 - **Map Work** (100% guarantee — 5 marks):
   - History: Peasant movements (Champaran, Kheda, Bardoli), Salt March route, Pre-independence industrial locations
   - Geography: Multipurpose dams (Bhakra-Nangal, Hirakud, Tehri), Iron & Steel plants (TISCO Jamshedpur, Bhilai, Bokaro), Major ports (Mumbai, Chennai, Visakhapatnam, Kolkata)
 """
 }
 
-SYSTEM_CONTEXT = """You are an elite CBSE Class 10 exam analyst with 15 years of experience.
-You have studied every board paper since 2010, all CBSE circulars, NCERT revisions, and
-topper answer scripts. Your predictions are data-driven and specific. You generate questions
-in the exact style of CBSE — not textbook copy-paste, but real exam-grade original questions.
-You are predicting for the 2026 Board Exam (Session 2025-26)."""
+SYSTEM_CONTEXT = f"""You are an elite CBSE Class 10 exam analyst with 20 years of experience.
+You have studied every board paper since 2010, all CBSE circulars, NEP 2020 competency guidelines,
+NCERT revisions, and topper answer scripts. Your predictions are data-driven and specific.
+You generate questions in the exact style of CBSE — not textbook copy-paste, but real exam-grade original questions.
+You are predicting for the {TARGET_YEAR} Board Exam (Session {CURRENT_SESSION}).
+
+IMPORTANT CHANGES FOR {TARGET_YEAR}:
+- Competency-based questions are now MANDATORY (30-40% of paper)
+- Case study questions increased to 2-3 per paper
+- Assertion-Reason questions in EVERY section
+- Application-based numericals using real-life scenarios
+- Source-based questions for Social Science"""
 
 def _build_chapter_context(subject: str, chapter_scores: dict) -> str:
     top = sorted(chapter_scores.items(), key=lambda x: -x[1]["score"])[:14]
@@ -116,7 +127,7 @@ def _build_master_prompt(subject: str, chapter_scores: dict, pdf_questions: list
 
     return f"""{SYSTEM_CONTEXT}
 
-SUBJECT: {s_display}  |  CBSE Class 10 Board Exam 2026 (Session 2025-26)
+SUBJECT: {s_display}  |  CBSE Class 10 Board Exam {TARGET_YEAR} (Session {CURRENT_SESSION})
 
 ## HIGH-PROBABILITY INTELLIGENCE (Apply these patterns)
 {subject_intel}
