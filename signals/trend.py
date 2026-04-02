@@ -4,9 +4,10 @@ from pathlib import Path
 from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from blueprint import BLUEPRINT, HISTORY, LAST_SEEN
+from config import TARGET_YEAR
 
-CURRENT = 2026
-RECENCY = {2024:1.0,2023:0.85,2022:0.70,2020:0.55,2019:0.40,2018:0.30,2017:0.20,2016:0.10}
+CURRENT = TARGET_YEAR
+RECENCY = {2025:1.0, 2024:0.90, 2023:0.80, 2022:0.65, 2020:0.50, 2019:0.40, 2018:0.30, 2017:0.20, 2016:0.15, 2015:0.10}
 
 def gap_bonus(subject: str) -> dict[str, float]:
     """Chapters absent for N years get a proportional bonus — they're overdue."""
