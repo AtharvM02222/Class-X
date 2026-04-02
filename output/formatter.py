@@ -12,7 +12,7 @@ from rich.columns import Columns
 from rich.progress import BarColumn, Progress
 from rich.rule import Rule
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from config import OUTPUT_DIR
+from config import OUTPUT_DIR, TARGET_YEAR
 
 console = Console(highlight=False)
 
@@ -28,9 +28,11 @@ def _bar(score: float, width: int = 12) -> str:
 def print_banner():
     console.print()
     console.print(Panel(
-        "[bold cyan]CBSE Class 10 Board Exam Predictor 2025[/bold cyan]\n"
-        "[dim]Signals: Blueprint · Past Papers · Year Trends · YouTubers (Shobhit Nirwan · Prashant Dhawan · Digraj Singh Rajput) · Gemini Pro[/dim]",
-        box=box.DOUBLE_EDGE, border_style="cyan", padding=(0, 6),
+        f"[bold cyan]CBSE Class 10 Board Exam Predictor {TARGET_YEAR}[/bold cyan]\n"
+        "[bold yellow]MEGA EDITION — Maximum Data Sources[/bold yellow]\n"
+        "[dim]Signals: Blueprint · Past Papers (10 yrs) · Year Trends · YouTubers (20+) · "
+        "Reddit · Education Blogs · Pre-Board Papers · Competency Mapping · Difficulty Analysis · Gemini Flash[/dim]",
+        box=box.DOUBLE_EDGE, border_style="cyan", padding=(0, 4),
     ))
     console.print()
 
@@ -124,8 +126,9 @@ def print_marking_scheme(subject: str, questions: list[dict]):
 def export_json(predictions: dict, chapter_scores: dict, filepath: str):
     data = {
         "generated_at": datetime.now().isoformat(),
-        "tool": "CBSE Class 10 Board Predictor 2025",
-        "signals": ["blueprint","past_papers","year_trend","youtube","gemini_pro"],
+        "tool": f"CBSE Class 10 Board Predictor {TARGET_YEAR} — MEGA EDITION",
+        "signals": ["blueprint", "past_papers", "year_trend", "youtube", "reddit", "blogs",
+                    "preboard", "difficulty", "examiner", "competency", "gemini_flash"],
         "chapter_scores": {
             subj: {ch: {"score": d["score"], "confidence": d["confidence"], "rank": d["rank"]}
                    for ch, d in scores.items()}
@@ -138,7 +141,7 @@ def export_json(predictions: dict, chapter_scores: dict, filepath: str):
     console.print(f"\n  [green]Exported to {p}[/green]")
 
 def export_text(predictions: dict, filepath: str):
-    lines = ["CBSE Class 10 Board Exam Predictor 2025", "=" * 60, ""]
+    lines = [f"CBSE Class 10 Board Exam Predictor {TARGET_YEAR} — MEGA EDITION", "=" * 60, ""]
     for subject, questions in predictions.items():
         lines.append(f"\n{'='*60}")
         lines.append(f"  {subject.replace('_',' ').upper()}")
